@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C4613714B0D601003D6DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4613614B0D601003D6DA1 /* UIKit.framework */; };
+		84C4613914B0D601003D6DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4613814B0D601003D6DA1 /* Foundation.framework */; };
+		84C4613B14B0D601003D6DA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4613A14B0D601003D6DA1 /* CoreGraphics.framework */; };
+		84C4613D14B0D601003D6DA1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4613C14B0D601003D6DA1 /* CoreData.framework */; };
+		84C4614314B0D601003D6DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C4614114B0D601003D6DA1 /* InfoPlist.strings */; };
+		84C4614514B0D601003D6DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C4614414B0D601003D6DA1 /* main.m */; };
+		84C4614914B0D601003D6DA1 /* SimpleWindowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C4614814B0D601003D6DA1 /* SimpleWindowAppDelegate.m */; };
+		84C4614C14B0D601003D6DA1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C4614A14B0D601003D6DA1 /* MainWindow.xib */; };
+		84C4614F14B0D601003D6DA1 /* SimpleWindow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84C4614D14B0D601003D6DA1 /* SimpleWindow.xcdatamodeld */; };
+		84C4615714B0D601003D6DA1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4615614B0D601003D6DA1 /* SenTestingKit.framework */; };
+		84C4615814B0D601003D6DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4613614B0D601003D6DA1 /* UIKit.framework */; };
+		84C4615914B0D601003D6DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4613814B0D601003D6DA1 /* Foundation.framework */; };
+		84C4615A14B0D601003D6DA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4613A14B0D601003D6DA1 /* CoreGraphics.framework */; };
+		84C4615B14B0D601003D6DA1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4613C14B0D601003D6DA1 /* CoreData.framework */; };
+		84C4616314B0D601003D6DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C4616114B0D601003D6DA1 /* InfoPlist.strings */; };
+		84C4616514B0D601003D6DA1 /* SimpleWindowTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 84C4616414B0D601003D6DA1 /* SimpleWindowTests.h */; };
+		84C4616714B0D601003D6DA1 /* SimpleWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C4616614B0D601003D6DA1 /* SimpleWindowTests.m */; };
+		84C4617814B0D774003D6DA1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C4617614B0D774003D6DA1 /* FirstViewController.m */; };
+		84C4617914B0D774003D6DA1 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C4617714B0D774003D6DA1 /* FirstViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C4615C14B0D601003D6DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C4612914B0D601003D6DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C4613114B0D601003D6DA1;
+			remoteInfo = SimpleWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C4613214B0D601003D6DA1 /* SimpleWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C4613614B0D601003D6DA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84C4613814B0D601003D6DA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84C4613A14B0D601003D6DA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84C4613C14B0D601003D6DA1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84C4614014B0D601003D6DA1 /* SimpleWindow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleWindow-Info.plist"; sourceTree = "<group>"; };
+		84C4614214B0D601003D6DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C4614414B0D601003D6DA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C4614614B0D601003D6DA1 /* SimpleWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleWindow-Prefix.pch"; sourceTree = "<group>"; };
+		84C4614714B0D601003D6DA1 /* SimpleWindowAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleWindowAppDelegate.h; sourceTree = "<group>"; };
+		84C4614814B0D601003D6DA1 /* SimpleWindowAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleWindowAppDelegate.m; sourceTree = "<group>"; };
+		84C4614B14B0D601003D6DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		84C4614E14B0D601003D6DA1 /* SimpleWindow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleWindow.xcdatamodel; sourceTree = "<group>"; };
+		84C4615514B0D601003D6DA1 /* SimpleWindowTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleWindowTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C4615614B0D601003D6DA1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84C4616014B0D601003D6DA1 /* SimpleWindowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleWindowTests-Info.plist"; sourceTree = "<group>"; };
+		84C4616214B0D601003D6DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C4616414B0D601003D6DA1 /* SimpleWindowTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleWindowTests.h; sourceTree = "<group>"; };
+		84C4616614B0D601003D6DA1 /* SimpleWindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleWindowTests.m; sourceTree = "<group>"; };
+		84C4617514B0D774003D6DA1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84C4617614B0D774003D6DA1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84C4617714B0D774003D6DA1 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C4612F14B0D601003D6DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C4613714B0D601003D6DA1 /* UIKit.framework in Frameworks */,
+				84C4613914B0D601003D6DA1 /* Foundation.framework in Frameworks */,
+				84C4613B14B0D601003D6DA1 /* CoreGraphics.framework in Frameworks */,
+				84C4613D14B0D601003D6DA1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C4615114B0D601003D6DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C4615714B0D601003D6DA1 /* SenTestingKit.framework in Frameworks */,
+				84C4615814B0D601003D6DA1 /* UIKit.framework in Frameworks */,
+				84C4615914B0D601003D6DA1 /* Foundation.framework in Frameworks */,
+				84C4615A14B0D601003D6DA1 /* CoreGraphics.framework in Frameworks */,
+				84C4615B14B0D601003D6DA1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C4612714B0D601003D6DA1 = {
+			isa = PBXGroup;
+			children = (
+				84C4613E14B0D601003D6DA1 /* SimpleWindow */,
+				84C4615E14B0D601003D6DA1 /* SimpleWindowTests */,
+				84C4613514B0D601003D6DA1 /* Frameworks */,
+				84C4613314B0D601003D6DA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C4613314B0D601003D6DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C4613214B0D601003D6DA1 /* SimpleWindow.app */,
+				84C4615514B0D601003D6DA1 /* SimpleWindowTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C4613514B0D601003D6DA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C4613614B0D601003D6DA1 /* UIKit.framework */,
+				84C4613814B0D601003D6DA1 /* Foundation.framework */,
+				84C4613A14B0D601003D6DA1 /* CoreGraphics.framework */,
+				84C4613C14B0D601003D6DA1 /* CoreData.framework */,
+				84C4615614B0D601003D6DA1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84C4613E14B0D601003D6DA1 /* SimpleWindow */ = {
+			isa = PBXGroup;
+			children = (
+				84C4614714B0D601003D6DA1 /* SimpleWindowAppDelegate.h */,
+				84C4614814B0D601003D6DA1 /* SimpleWindowAppDelegate.m */,
+				84C4614A14B0D601003D6DA1 /* MainWindow.xib */,
+				84C4614D14B0D601003D6DA1 /* SimpleWindow.xcdatamodeld */,
+				84C4613F14B0D601003D6DA1 /* Supporting Files */,
+				84C4617514B0D774003D6DA1 /* FirstViewController.h */,
+				84C4617614B0D774003D6DA1 /* FirstViewController.m */,
+				84C4617714B0D774003D6DA1 /* FirstViewController.xib */,
+			);
+			path = SimpleWindow;
+			sourceTree = "<group>";
+		};
+		84C4613F14B0D601003D6DA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C4614014B0D601003D6DA1 /* SimpleWindow-Info.plist */,
+				84C4614114B0D601003D6DA1 /* InfoPlist.strings */,
+				84C4614414B0D601003D6DA1 /* main.m */,
+				84C4614614B0D601003D6DA1 /* SimpleWindow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C4615E14B0D601003D6DA1 /* SimpleWindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C4616414B0D601003D6DA1 /* SimpleWindowTests.h */,
+				84C4616614B0D601003D6DA1 /* SimpleWindowTests.m */,
+				84C4615F14B0D601003D6DA1 /* Supporting Files */,
+			);
+			path = SimpleWindowTests;
+			sourceTree = "<group>";
+		};
+		84C4615F14B0D601003D6DA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C4616014B0D601003D6DA1 /* SimpleWindowTests-Info.plist */,
+				84C4616114B0D601003D6DA1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C4613114B0D601003D6DA1 /* SimpleWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C4616A14B0D601003D6DA1 /* Build configuration list for PBXNativeTarget "SimpleWindow" */;
+			buildPhases = (
+				84C4612E14B0D601003D6DA1 /* Sources */,
+				84C4612F14B0D601003D6DA1 /* Frameworks */,
+				84C4613014B0D601003D6DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleWindow;
+			productName = SimpleWindow;
+			productReference = 84C4613214B0D601003D6DA1 /* SimpleWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C4615414B0D601003D6DA1 /* SimpleWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C4616D14B0D601003D6DA1 /* Build configuration list for PBXNativeTarget "SimpleWindowTests" */;
+			buildPhases = (
+				84C4615014B0D601003D6DA1 /* Sources */,
+				84C4615114B0D601003D6DA1 /* Frameworks */,
+				84C4615214B0D601003D6DA1 /* Resources */,
+				84C4615314B0D601003D6DA1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C4615D14B0D601003D6DA1 /* PBXTargetDependency */,
+			);
+			name = SimpleWindowTests;
+			productName = SimpleWindowTests;
+			productReference = 84C4615514B0D601003D6DA1 /* SimpleWindowTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C4612914B0D601003D6DA1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84C4612C14B0D601003D6DA1 /* Build configuration list for PBXProject "SimpleWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84C4612714B0D601003D6DA1;
+			productRefGroup = 84C4613314B0D601003D6DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C4613114B0D601003D6DA1 /* SimpleWindow */,
+				84C4615414B0D601003D6DA1 /* SimpleWindowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C4613014B0D601003D6DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C4614314B0D601003D6DA1 /* InfoPlist.strings in Resources */,
+				84C4614C14B0D601003D6DA1 /* MainWindow.xib in Resources */,
+				84C4617914B0D774003D6DA1 /* FirstViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C4615214B0D601003D6DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C4616314B0D601003D6DA1 /* InfoPlist.strings in Resources */,
+				84C4616514B0D601003D6DA1 /* SimpleWindowTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84C4615314B0D601003D6DA1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C4612E14B0D601003D6DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C4614514B0D601003D6DA1 /* main.m in Sources */,
+				84C4614914B0D601003D6DA1 /* SimpleWindowAppDelegate.m in Sources */,
+				84C4614F14B0D601003D6DA1 /* SimpleWindow.xcdatamodeld in Sources */,
+				84C4617814B0D774003D6DA1 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C4615014B0D601003D6DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C4616714B0D601003D6DA1 /* SimpleWindowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C4615D14B0D601003D6DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C4613114B0D601003D6DA1 /* SimpleWindow */;
+			targetProxy = 84C4615C14B0D601003D6DA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C4614114B0D601003D6DA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C4614214B0D601003D6DA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84C4614A14B0D601003D6DA1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C4614B14B0D601003D6DA1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		84C4616114B0D601003D6DA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C4616214B0D601003D6DA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C4616814B0D601003D6DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84C4616914B0D601003D6DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C4616B14B0D601003D6DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleWindow/SimpleWindow-Prefix.pch";
+				INFOPLIST_FILE = "SimpleWindow/SimpleWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84C4616C14B0D601003D6DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleWindow/SimpleWindow-Prefix.pch";
+				INFOPLIST_FILE = "SimpleWindow/SimpleWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84C4616E14B0D601003D6DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleWindow.app/SimpleWindow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleWindow/SimpleWindow-Prefix.pch";
+				INFOPLIST_FILE = "SimpleWindowTests/SimpleWindowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84C4616F14B0D601003D6DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleWindow.app/SimpleWindow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleWindow/SimpleWindow-Prefix.pch";
+				INFOPLIST_FILE = "SimpleWindowTests/SimpleWindowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C4612C14B0D601003D6DA1 /* Build configuration list for PBXProject "SimpleWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C4616814B0D601003D6DA1 /* Debug */,
+				84C4616914B0D601003D6DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C4616A14B0D601003D6DA1 /* Build configuration list for PBXNativeTarget "SimpleWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C4616B14B0D601003D6DA1 /* Debug */,
+				84C4616C14B0D601003D6DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84C4616D14B0D601003D6DA1 /* Build configuration list for PBXNativeTarget "SimpleWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C4616E14B0D601003D6DA1 /* Debug */,
+				84C4616F14B0D601003D6DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84C4614D14B0D601003D6DA1 /* SimpleWindow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84C4614E14B0D601003D6DA1 /* SimpleWindow.xcdatamodel */,
+			);
+			currentVersion = 84C4614E14B0D601003D6DA1 /* SimpleWindow.xcdatamodel */;
+			path = SimpleWindow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84C4612914B0D601003D6DA1 /* Project object */;
+}

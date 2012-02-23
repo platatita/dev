@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* NetConnectDetectAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1522, 864}}";
+			sepNavSelRange = "{61, 170}";
+			sepNavVisRange = "{0, 923}";
+		};
+	};
+	1D3623250D0F684500981E51 /* NetConnectDetectAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1572, 1832}}";
+			sepNavSelRange = "{881, 0}";
+			sepNavVisRange = "{362, 1148}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* NetConnectDetect */ = {
+		activeExec = 0;
+		executables = (
+			88657F3710AC9D6C00C98DF6 /* NetConnectDetect */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* NetConnectDetectViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1647, 864}}";
+			sepNavSelRange = "{234, 0}";
+			sepNavVisRange = "{0, 374}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* NetConnectDetectViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1647, 1261}}";
+			sepNavSelRange = "{234, 0}";
+			sepNavVisRange = "{0, 1255}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 88657F3710AC9D6C00C98DF6 /* NetConnectDetect */;
+		activeSDKPreference = iphoneos3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* NetConnectDetect */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* NetConnectDetect */,
+		);
+		codeSenseManager = 88657F5F10AC9DA900C98DF6 /* Code sense */;
+		executables = (
+			88657F3710AC9D6C00C98DF6 /* NetConnectDetect */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1344,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1429,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 279747948;
+			PBXWorkspaceStateSaveDate = 279747948;
+		};
+		perUserProjectItems = {
+			88657F7310ACA34000C98DF6 /* PBXTextBookmark */ = 88657F7310ACA34000C98DF6 /* PBXTextBookmark */;
+			88657F7410ACA34000C98DF6 /* PBXTextBookmark */ = 88657F7410ACA34000C98DF6 /* PBXTextBookmark */;
+			88657F7510ACA34000C98DF6 /* PBXTextBookmark */ = 88657F7510ACA34000C98DF6 /* PBXTextBookmark */;
+			88657F7610ACA34000C98DF6 /* PBXTextBookmark */ = 88657F7610ACA34000C98DF6 /* PBXTextBookmark */;
+			88657F7710ACA34000C98DF6 /* PBXTextBookmark */ = 88657F7710ACA34000C98DF6 /* PBXTextBookmark */;
+			88657F7810ACA34000C98DF6 /* PBXBookmark */ = 88657F7810ACA34000C98DF6 /* PBXBookmark */;
+			88657F7910ACA34000C98DF6 /* PBXTextBookmark */ = 88657F7910ACA34000C98DF6 /* PBXTextBookmark */;
+			88657F7A10ACA34000C98DF6 /* PBXTextBookmark */ = 88657F7A10ACA34000C98DF6 /* PBXTextBookmark */;
+			88657F7B10ACA34000C98DF6 /* PBXTextBookmark */ = 88657F7B10ACA34000C98DF6 /* PBXTextBookmark */;
+			88657F7C10ACA34000C98DF6 /* PlistBookmark */ = 88657F7C10ACA34000C98DF6 /* PlistBookmark */;
+			88657F7D10ACA34000C98DF6 /* PlistBookmark */ = 88657F7D10ACA34000C98DF6 /* PlistBookmark */;
+		};
+		sourceControlManager = 88657F5E10AC9DA900C98DF6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1522, 864}}";
+			sepNavSelRange = "{208, 0}";
+			sepNavVisRange = "{0, 439}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* NetConnectDetect_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1647, 864}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 201}";
+		};
+	};
+	51D2EB7610A9338A00B960D0 /* Reachability.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1647, 11765}}";
+			sepNavSelRange = "{195, 0}";
+			sepNavVisRange = "{0, 1453}";
+		};
+	};
+	51D2EB7710A9338A00B960D0 /* Reachability.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1647, 1875}}";
+			sepNavSelRange = "{197, 0}";
+			sepNavVisRange = "{0, 1108}";
+		};
+	};
+	88657F3710AC9D6C00C98DF6 /* NetConnectDetect */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = NetConnectDetect;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	88657F5E10AC9DA900C98DF6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	88657F5F10AC9DA900C98DF6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	88657F7310ACA34000C98DF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 51D2EB7710A9338A00B960D0 /* Reachability.h */;
+		name = "Reachability.h: 9";
+		rLen = 0;
+		rLoc = 197;
+		rType = 0;
+		vrLen = 1108;
+		vrLoc = 0;
+	};
+	88657F7410ACA34000C98DF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 51D2EB7610A9338A00B960D0 /* Reachability.m */;
+		name = "Reachability.m: 7";
+		rLen = 0;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 1453;
+		vrLoc = 0;
+	};
+	88657F7510ACA34000C98DF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* NetConnectDetectViewController.h */;
+		name = "NetConnectDetectViewController.h: 8";
+		rLen = 0;
+		rLoc = 234;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 0;
+	};
+	88657F7610ACA34000C98DF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* NetConnectDetectViewController.m */;
+		name = "NetConnectDetectViewController.m: 8";
+		rLen = 0;
+		rLoc = 234;
+		rType = 0;
+		vrLen = 1255;
+		vrLoc = 0;
+	};
+	88657F7710ACA34000C98DF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* NetConnectDetect_Prefix.pch */;
+		name = "NetConnectDetect_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 201;
+		vrLoc = 0;
+	};
+	88657F7810ACA34000C98DF6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 88657F6310ACA1E500C98DF6 /* keyvisuals.png */;
+	};
+	88657F7910ACA34000C98DF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 8";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 0;
+	};
+	88657F7A10ACA34000C98DF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* NetConnectDetectAppDelegate.h */;
+		name = "NetConnectDetectAppDelegate.h: 5";
+		rLen = 170;
+		rLoc = 61;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	88657F7B10ACA34000C98DF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* NetConnectDetectAppDelegate.m */;
+		name = "NetConnectDetectAppDelegate.m: 39";
+		rLen = 0;
+		rLoc = 881;
+		rType = 0;
+		vrLen = 1148;
+		vrLoc = 362;
+	};
+	88657F7C10ACA34000C98DF6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* NetConnectDetect-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/keyvisuals/Desktop/NetConnectDetect/NetConnectDetect-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	88657F7D10ACA34000C98DF6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* NetConnectDetect-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/keyvisuals/Desktop/NetConnectDetect/NetConnectDetect-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+}

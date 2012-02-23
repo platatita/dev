@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* TestWifiAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 572}}";
+			sepNavSelRange = "{141, 0}";
+			sepNavVisRange = "{0, 480}";
+		};
+	};
+	1D3623250D0F684500981E51 /* TestWifiAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 572}}";
+			sepNavSelRange = "{141, 0}";
+			sepNavVisRange = "{0, 618}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* TestWifi */ = {
+		activeExec = 0;
+		executables = (
+			E339C8630FB48C4800656666 /* TestWifi */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* TestWifiViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 572}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 415}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* TestWifiViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 1274}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 938}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E339C8630FB48C4800656666 /* TestWifi */;
+		activeSDKPreference = iphonesimulator2.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TestWifi */;
+		codeSenseManager = E339C86F0FB48C6600656666 /* Code sense */;
+		executables = (
+			E339C8630FB48C4800656666 /* TestWifi */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					949,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 263490632;
+			PBXWorkspaceStateSaveDate = 263490632;
+		};
+		perUserProjectItems = {
+			E339C8750FB48C8E00656666 /* PBXTextBookmark */ = E339C8750FB48C8E00656666 /* PBXTextBookmark */;
+			E339C8760FB48C8E00656666 /* PBXTextBookmark */ = E339C8760FB48C8E00656666 /* PBXTextBookmark */;
+			E339C8770FB48C8E00656666 /* PBXTextBookmark */ = E339C8770FB48C8E00656666 /* PBXTextBookmark */;
+			E339C8920FB48F5F00656666 /* PBXTextBookmark */ = E339C8920FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8930FB48F5F00656666 /* PBXTextBookmark */ = E339C8930FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8940FB48F5F00656666 /* PBXTextBookmark */ = E339C8940FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8950FB48F5F00656666 /* PBXTextBookmark */ = E339C8950FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8960FB48F5F00656666 /* PBXTextBookmark */ = E339C8960FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8970FB48F5F00656666 /* PBXTextBookmark */ = E339C8970FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8980FB48F5F00656666 /* PBXTextBookmark */ = E339C8980FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8990FB48F5F00656666 /* PlistBookmark */ = E339C8990FB48F5F00656666 /* PlistBookmark */;
+			E339C89A0FB48F5F00656666 /* PBXTextBookmark */ = E339C89A0FB48F5F00656666 /* PBXTextBookmark */;
+			E339C89B0FB48F5F00656666 /* PBXTextBookmark */ = E339C89B0FB48F5F00656666 /* PBXTextBookmark */;
+			E339C89C0FB48F5F00656666 /* PlistBookmark */ = E339C89C0FB48F5F00656666 /* PlistBookmark */;
+			E339C89D0FB48F5F00656666 /* PBXTextBookmark */ = E339C89D0FB48F5F00656666 /* PBXTextBookmark */;
+			E339C89E0FB48F5F00656666 /* PBXTextBookmark */ = E339C89E0FB48F5F00656666 /* PBXTextBookmark */;
+			E339C89F0FB48F5F00656666 /* PBXTextBookmark */ = E339C89F0FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8A00FB48F5F00656666 /* PBXTextBookmark */ = E339C8A00FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8A10FB48F5F00656666 /* PBXTextBookmark */ = E339C8A10FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8A20FB48F5F00656666 /* PBXTextBookmark */ = E339C8A20FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8A30FB48F5F00656666 /* PBXTextBookmark */ = E339C8A30FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8A40FB48F5F00656666 /* PBXTextBookmark */ = E339C8A40FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8A50FB48F5F00656666 /* PBXTextBookmark */ = E339C8A50FB48F5F00656666 /* PBXTextBookmark */;
+			E339C8A60FB48F5F00656666 /* PlistBookmark */ = E339C8A60FB48F5F00656666 /* PlistBookmark */;
+			E339C8A80FB48F6E00656666 /* PBXTextBookmark */ = E339C8A80FB48F6E00656666 /* PBXTextBookmark */;
+		};
+		sourceControlManager = E339C86E0FB48C6600656666 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 572}}";
+			sepNavSelRange = "{126, 0}";
+			sepNavVisRange = "{0, 357}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* TestWifi_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 185}";
+		};
+	};
+	5133182B0FB4560B00324266 /* Reachability.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 1260}}";
+			sepNavSelRange = "{22, 112}";
+			sepNavVisRange = "{0, 973}";
+		};
+	};
+	5133182C0FB4560B00324266 /* Reachability.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 7868}}";
+			sepNavSelRange = "{134, 0}";
+			sepNavVisRange = "{0, 1355}";
+		};
+	};
+	E339C8630FB48C4800656666 /* TestWifi */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TestWifi;
+		sourceDirectories = (
+		);
+	};
+	E339C86E0FB48C6600656666 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	E339C86F0FB48C6600656666 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E339C8750FB48C8E00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TestWifiAppDelegate.m */;
+		name = "TestWifiAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 0;
+	};
+	E339C8760FB48C8E00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TestWifiAppDelegate.h */;
+		name = "TestWifiAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 490;
+		vrLoc = 0;
+	};
+	E339C8770FB48C8E00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* TestWifiViewController.h */;
+		name = "TestWifiViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 425;
+		vrLoc = 0;
+	};
+	E339C8920FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5133182C0FB4560B00324266 /* Reachability.m */;
+		name = "Reachability.m: 7";
+		rLen = 0;
+		rLoc = 134;
+		rType = 0;
+		vrLen = 1355;
+		vrLoc = 0;
+	};
+	E339C8930FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TestWifiAppDelegate.h */;
+		name = "TestWifiAppDelegate.h: 7";
+		rLen = 0;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 0;
+	};
+	E339C8940FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TestWifiAppDelegate.m */;
+		name = "TestWifiAppDelegate.m: 7";
+		rLen = 0;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 618;
+		vrLoc = 0;
+	};
+	E339C8950FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* TestWifiViewController.h */;
+		name = "TestWifiViewController.h: 7";
+		rLen = 0;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 415;
+		vrLoc = 0;
+	};
+	E339C8960FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* TestWifiViewController.m */;
+		name = "TestWifiViewController.m: 7";
+		rLen = 0;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 938;
+		vrLoc = 0;
+	};
+	E339C8970FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* TestWifi_Prefix.pch */;
+		name = "TestWifi_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 185;
+		vrLoc = 0;
+	};
+	E339C8980FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 7";
+		rLen = 0;
+		rLoc = 126;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 0;
+	};
+	E339C8990FB48F5F00656666 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/buya/Desktop/TestWifi/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	E339C89A0FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5133182B0FB4560B00324266 /* Reachability.h */;
+		name = "Reachability.h: 3";
+		rLen = 112;
+		rLoc = 22;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	E339C89B0FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* TestWifiViewController.m */;
+		name = "TestWifiViewController.m: 72";
+		rLen = 0;
+		rLoc = 1704;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 715;
+	};
+	E339C89C0FB48F5F00656666 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/buya/Desktop/TestWifi/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	E339C89D0FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* TestWifi_Prefix.pch */;
+		name = "TestWifi_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 185;
+		vrLoc = 0;
+	};
+	E339C89E0FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5133182B0FB4560B00324266 /* Reachability.h */;
+		name = "Reachability.h: 3";
+		rLen = 112;
+		rLoc = 22;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	E339C89F0FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5133182C0FB4560B00324266 /* Reachability.m */;
+		name = "Reachability.m: 7";
+		rLen = 0;
+		rLoc = 134;
+		rType = 0;
+		vrLen = 1355;
+		vrLoc = 0;
+	};
+	E339C8A00FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TestWifiAppDelegate.h */;
+		name = "TestWifiAppDelegate.h: 7";
+		rLen = 0;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 0;
+	};
+	E339C8A10FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TestWifiAppDelegate.m */;
+		name = "TestWifiAppDelegate.m: 7";
+		rLen = 0;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 618;
+		vrLoc = 0;
+	};
+	E339C8A20FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* TestWifiViewController.h */;
+		name = "TestWifiViewController.h: 7";
+		rLen = 0;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 415;
+		vrLoc = 0;
+	};
+	E339C8A30FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* TestWifiViewController.m */;
+		name = "TestWifiViewController.m: 7";
+		rLen = 0;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 938;
+		vrLoc = 0;
+	};
+	E339C8A40FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* TestWifi_Prefix.pch */;
+		name = "TestWifi_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 185;
+		vrLoc = 0;
+	};
+	E339C8A50FB48F5F00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 7";
+		rLen = 0;
+		rLoc = 126;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 0;
+	};
+	E339C8A60FB48F5F00656666 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/buya/Desktop/TestWifi/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	E339C8A80FB48F6E00656666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5133182B0FB4560B00324266 /* Reachability.h */;
+		name = "Reachability.h: 3";
+		rLen = 112;
+		rLoc = 22;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+}

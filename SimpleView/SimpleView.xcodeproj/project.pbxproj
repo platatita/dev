@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C460EE14B0CFEA003D6DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C460ED14B0CFEA003D6DA1 /* UIKit.framework */; };
+		84C460F014B0CFEA003D6DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C460EF14B0CFEA003D6DA1 /* Foundation.framework */; };
+		84C460F214B0CFEA003D6DA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C460F114B0CFEA003D6DA1 /* CoreGraphics.framework */; };
+		84C460F814B0CFEA003D6DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C460F614B0CFEA003D6DA1 /* InfoPlist.strings */; };
+		84C460FA14B0CFEA003D6DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C460F914B0CFEA003D6DA1 /* main.m */; };
+		84C460FE14B0CFEA003D6DA1 /* SimpleViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C460FD14B0CFEA003D6DA1 /* SimpleViewAppDelegate.m */; };
+		84C4610114B0CFEA003D6DA1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C460FF14B0CFEA003D6DA1 /* MainWindow.xib */; };
+		84C4610414B0CFEA003D6DA1 /* SimpleViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C4610314B0CFEA003D6DA1 /* SimpleViewViewController.m */; };
+		84C4610714B0CFEA003D6DA1 /* SimpleViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C4610514B0CFEA003D6DA1 /* SimpleViewViewController.xib */; };
+		84C4610F14B0CFEA003D6DA1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4610E14B0CFEA003D6DA1 /* SenTestingKit.framework */; };
+		84C4611014B0CFEA003D6DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C460ED14B0CFEA003D6DA1 /* UIKit.framework */; };
+		84C4611114B0CFEA003D6DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C460EF14B0CFEA003D6DA1 /* Foundation.framework */; };
+		84C4611214B0CFEA003D6DA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C460F114B0CFEA003D6DA1 /* CoreGraphics.framework */; };
+		84C4611A14B0CFEA003D6DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C4611814B0CFEA003D6DA1 /* InfoPlist.strings */; };
+		84C4611C14B0CFEA003D6DA1 /* SimpleViewTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 84C4611B14B0CFEA003D6DA1 /* SimpleViewTests.h */; };
+		84C4611E14B0CFEA003D6DA1 /* SimpleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C4611D14B0CFEA003D6DA1 /* SimpleViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C4611314B0CFEA003D6DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C460E014B0CFEA003D6DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C460E814B0CFEA003D6DA1;
+			remoteInfo = SimpleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C460E914B0CFEA003D6DA1 /* SimpleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C460ED14B0CFEA003D6DA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84C460EF14B0CFEA003D6DA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84C460F114B0CFEA003D6DA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84C460F514B0CFEA003D6DA1 /* SimpleView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleView-Info.plist"; sourceTree = "<group>"; };
+		84C460F714B0CFEA003D6DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C460F914B0CFEA003D6DA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C460FB14B0CFEA003D6DA1 /* SimpleView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleView-Prefix.pch"; sourceTree = "<group>"; };
+		84C460FC14B0CFEA003D6DA1 /* SimpleViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleViewAppDelegate.h; sourceTree = "<group>"; };
+		84C460FD14B0CFEA003D6DA1 /* SimpleViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewAppDelegate.m; sourceTree = "<group>"; };
+		84C4610014B0CFEA003D6DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		84C4610214B0CFEA003D6DA1 /* SimpleViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleViewViewController.h; sourceTree = "<group>"; };
+		84C4610314B0CFEA003D6DA1 /* SimpleViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewViewController.m; sourceTree = "<group>"; };
+		84C4610614B0CFEA003D6DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SimpleViewViewController.xib; sourceTree = "<group>"; };
+		84C4610D14B0CFEA003D6DA1 /* SimpleViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C4610E14B0CFEA003D6DA1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84C4611714B0CFEA003D6DA1 /* SimpleViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleViewTests-Info.plist"; sourceTree = "<group>"; };
+		84C4611914B0CFEA003D6DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C4611B14B0CFEA003D6DA1 /* SimpleViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleViewTests.h; sourceTree = "<group>"; };
+		84C4611D14B0CFEA003D6DA1 /* SimpleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C460E614B0CFEA003D6DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C460EE14B0CFEA003D6DA1 /* UIKit.framework in Frameworks */,
+				84C460F014B0CFEA003D6DA1 /* Foundation.framework in Frameworks */,
+				84C460F214B0CFEA003D6DA1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C4610914B0CFEA003D6DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C4610F14B0CFEA003D6DA1 /* SenTestingKit.framework in Frameworks */,
+				84C4611014B0CFEA003D6DA1 /* UIKit.framework in Frameworks */,
+				84C4611114B0CFEA003D6DA1 /* Foundation.framework in Frameworks */,
+				84C4611214B0CFEA003D6DA1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C460DE14B0CFEA003D6DA1 = {
+			isa = PBXGroup;
+			children = (
+				84C460F314B0CFEA003D6DA1 /* SimpleView */,
+				84C4611514B0CFEA003D6DA1 /* SimpleViewTests */,
+				84C460EC14B0CFEA003D6DA1 /* Frameworks */,
+				84C460EA14B0CFEA003D6DA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C460EA14B0CFEA003D6DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C460E914B0CFEA003D6DA1 /* SimpleView.app */,
+				84C4610D14B0CFEA003D6DA1 /* SimpleViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C460EC14B0CFEA003D6DA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C460ED14B0CFEA003D6DA1 /* UIKit.framework */,
+				84C460EF14B0CFEA003D6DA1 /* Foundation.framework */,
+				84C460F114B0CFEA003D6DA1 /* CoreGraphics.framework */,
+				84C4610E14B0CFEA003D6DA1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84C460F314B0CFEA003D6DA1 /* SimpleView */ = {
+			isa = PBXGroup;
+			children = (
+				84C460FC14B0CFEA003D6DA1 /* SimpleViewAppDelegate.h */,
+				84C460FD14B0CFEA003D6DA1 /* SimpleViewAppDelegate.m */,
+				84C460FF14B0CFEA003D6DA1 /* MainWindow.xib */,
+				84C4610214B0CFEA003D6DA1 /* SimpleViewViewController.h */,
+				84C4610314B0CFEA003D6DA1 /* SimpleViewViewController.m */,
+				84C4610514B0CFEA003D6DA1 /* SimpleViewViewController.xib */,
+				84C460F414B0CFEA003D6DA1 /* Supporting Files */,
+			);
+			path = SimpleView;
+			sourceTree = "<group>";
+		};
+		84C460F414B0CFEA003D6DA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C460F514B0CFEA003D6DA1 /* SimpleView-Info.plist */,
+				84C460F614B0CFEA003D6DA1 /* InfoPlist.strings */,
+				84C460F914B0CFEA003D6DA1 /* main.m */,
+				84C460FB14B0CFEA003D6DA1 /* SimpleView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C4611514B0CFEA003D6DA1 /* SimpleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C4611B14B0CFEA003D6DA1 /* SimpleViewTests.h */,
+				84C4611D14B0CFEA003D6DA1 /* SimpleViewTests.m */,
+				84C4611614B0CFEA003D6DA1 /* Supporting Files */,
+			);
+			path = SimpleViewTests;
+			sourceTree = "<group>";
+		};
+		84C4611614B0CFEA003D6DA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C4611714B0CFEA003D6DA1 /* SimpleViewTests-Info.plist */,
+				84C4611814B0CFEA003D6DA1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C460E814B0CFEA003D6DA1 /* SimpleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C4612114B0CFEA003D6DA1 /* Build configuration list for PBXNativeTarget "SimpleView" */;
+			buildPhases = (
+				84C460E514B0CFEA003D6DA1 /* Sources */,
+				84C460E614B0CFEA003D6DA1 /* Frameworks */,
+				84C460E714B0CFEA003D6DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleView;
+			productName = SimpleView;
+			productReference = 84C460E914B0CFEA003D6DA1 /* SimpleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C4610C14B0CFEA003D6DA1 /* SimpleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C4612414B0CFEA003D6DA1 /* Build configuration list for PBXNativeTarget "SimpleViewTests" */;
+			buildPhases = (
+				84C4610814B0CFEA003D6DA1 /* Sources */,
+				84C4610914B0CFEA003D6DA1 /* Frameworks */,
+				84C4610A14B0CFEA003D6DA1 /* Resources */,
+				84C4610B14B0CFEA003D6DA1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C4611414B0CFEA003D6DA1 /* PBXTargetDependency */,
+			);
+			name = SimpleViewTests;
+			productName = SimpleViewTests;
+			productReference = 84C4610D14B0CFEA003D6DA1 /* SimpleViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C460E014B0CFEA003D6DA1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84C460E314B0CFEA003D6DA1 /* Build configuration list for PBXProject "SimpleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84C460DE14B0CFEA003D6DA1;
+			productRefGroup = 84C460EA14B0CFEA003D6DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C460E814B0CFEA003D6DA1 /* SimpleView */,
+				84C4610C14B0CFEA003D6DA1 /* SimpleViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C460E714B0CFEA003D6DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C460F814B0CFEA003D6DA1 /* InfoPlist.strings in Resources */,
+				84C4610114B0CFEA003D6DA1 /* MainWindow.xib in Resources */,
+				84C4610714B0CFEA003D6DA1 /* SimpleViewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C4610A14B0CFEA003D6DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C4611A14B0CFEA003D6DA1 /* InfoPlist.strings in Resources */,
+				84C4611C14B0CFEA003D6DA1 /* SimpleViewTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84C4610B14B0CFEA003D6DA1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C460E514B0CFEA003D6DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C460FA14B0CFEA003D6DA1 /* main.m in Sources */,
+				84C460FE14B0CFEA003D6DA1 /* SimpleViewAppDelegate.m in Sources */,
+				84C4610414B0CFEA003D6DA1 /* SimpleViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C4610814B0CFEA003D6DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C4611E14B0CFEA003D6DA1 /* SimpleViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C4611414B0CFEA003D6DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C460E814B0CFEA003D6DA1 /* SimpleView */;
+			targetProxy = 84C4611314B0CFEA003D6DA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C460F614B0CFEA003D6DA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C460F714B0CFEA003D6DA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84C460FF14B0CFEA003D6DA1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C4610014B0CFEA003D6DA1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		84C4610514B0CFEA003D6DA1 /* SimpleViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C4610614B0CFEA003D6DA1 /* en */,
+			);
+			name = SimpleViewViewController.xib;
+			sourceTree = "<group>";
+		};
+		84C4611814B0CFEA003D6DA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C4611914B0CFEA003D6DA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C4611F14B0CFEA003D6DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84C4612014B0CFEA003D6DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C4612214B0CFEA003D6DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleView/SimpleView-Prefix.pch";
+				INFOPLIST_FILE = "SimpleView/SimpleView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84C4612314B0CFEA003D6DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleView/SimpleView-Prefix.pch";
+				INFOPLIST_FILE = "SimpleView/SimpleView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84C4612514B0CFEA003D6DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleView.app/SimpleView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleView/SimpleView-Prefix.pch";
+				INFOPLIST_FILE = "SimpleViewTests/SimpleViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84C4612614B0CFEA003D6DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleView.app/SimpleView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleView/SimpleView-Prefix.pch";
+				INFOPLIST_FILE = "SimpleViewTests/SimpleViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C460E314B0CFEA003D6DA1 /* Build configuration list for PBXProject "SimpleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C4611F14B0CFEA003D6DA1 /* Debug */,
+				84C4612014B0CFEA003D6DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C4612114B0CFEA003D6DA1 /* Build configuration list for PBXNativeTarget "SimpleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C4612214B0CFEA003D6DA1 /* Debug */,
+				84C4612314B0CFEA003D6DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C4612414B0CFEA003D6DA1 /* Build configuration list for PBXNativeTarget "SimpleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C4612514B0CFEA003D6DA1 /* Debug */,
+				84C4612614B0CFEA003D6DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C460E014B0CFEA003D6DA1 /* Project object */;
+}

@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8440F52314BD8D2600E28621 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8440F52214BD8D2600E28621 /* UIKit.framework */; };
+		8440F52514BD8D2600E28621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8440F52414BD8D2600E28621 /* Foundation.framework */; };
+		8440F52714BD8D2600E28621 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8440F52614BD8D2600E28621 /* CoreGraphics.framework */; };
+		8440F52914BD8D2600E28621 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8440F52814BD8D2600E28621 /* CoreData.framework */; };
+		8440F52F14BD8D2600E28621 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8440F52D14BD8D2600E28621 /* InfoPlist.strings */; };
+		8440F53114BD8D2600E28621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440F53014BD8D2600E28621 /* main.m */; };
+		8440F53514BD8D2600E28621 /* ThreeViewNavContAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440F53414BD8D2600E28621 /* ThreeViewNavContAppDelegate.m */; };
+		8440F53814BD8D2600E28621 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8440F53614BD8D2600E28621 /* MainWindow.xib */; };
+		8440F53B14BD8D2600E28621 /* ThreeViewNavCont.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8440F53914BD8D2600E28621 /* ThreeViewNavCont.xcdatamodeld */; };
+		8440F54314BD8D2600E28621 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8440F54214BD8D2600E28621 /* SenTestingKit.framework */; };
+		8440F54414BD8D2600E28621 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8440F52214BD8D2600E28621 /* UIKit.framework */; };
+		8440F54514BD8D2600E28621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8440F52414BD8D2600E28621 /* Foundation.framework */; };
+		8440F54614BD8D2600E28621 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8440F52614BD8D2600E28621 /* CoreGraphics.framework */; };
+		8440F54714BD8D2600E28621 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8440F52814BD8D2600E28621 /* CoreData.framework */; };
+		8440F54F14BD8D2600E28621 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8440F54D14BD8D2600E28621 /* InfoPlist.strings */; };
+		8440F55114BD8D2600E28621 /* ThreeViewNavContTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8440F55014BD8D2600E28621 /* ThreeViewNavContTests.h */; };
+		8440F55314BD8D2600E28621 /* ThreeViewNavContTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440F55214BD8D2600E28621 /* ThreeViewNavContTests.m */; };
+		8440F55F14BD8D6000E28621 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440F55D14BD8D6000E28621 /* FirstViewController.m */; };
+		8440F56014BD8D6000E28621 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8440F55E14BD8D6000E28621 /* FirstViewController.xib */; };
+		8440F56414BD8D7600E28621 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440F56214BD8D7600E28621 /* SecondViewController.m */; };
+		8440F56514BD8D7600E28621 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8440F56314BD8D7600E28621 /* SecondViewController.xib */; };
+		8440F56E14BD8DA100E28621 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440F56C14BD8DA100E28621 /* ThirdViewController.m */; };
+		8440F56F14BD8DA100E28621 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8440F56D14BD8DA100E28621 /* ThirdViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8440F54814BD8D2600E28621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8440F51514BD8D2600E28621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8440F51D14BD8D2600E28621;
+			remoteInfo = ThreeViewNavCont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8440F51E14BD8D2600E28621 /* ThreeViewNavCont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeViewNavCont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8440F52214BD8D2600E28621 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8440F52414BD8D2600E28621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8440F52614BD8D2600E28621 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8440F52814BD8D2600E28621 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8440F52C14BD8D2600E28621 /* ThreeViewNavCont-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeViewNavCont-Info.plist"; sourceTree = "<group>"; };
+		8440F52E14BD8D2600E28621 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8440F53014BD8D2600E28621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8440F53214BD8D2600E28621 /* ThreeViewNavCont-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThreeViewNavCont-Prefix.pch"; sourceTree = "<group>"; };
+		8440F53314BD8D2600E28621 /* ThreeViewNavContAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewNavContAppDelegate.h; sourceTree = "<group>"; };
+		8440F53414BD8D2600E28621 /* ThreeViewNavContAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewNavContAppDelegate.m; sourceTree = "<group>"; };
+		8440F53714BD8D2600E28621 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8440F53A14BD8D2600E28621 /* ThreeViewNavCont.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThreeViewNavCont.xcdatamodel; sourceTree = "<group>"; };
+		8440F54114BD8D2600E28621 /* ThreeViewNavContTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeViewNavContTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8440F54214BD8D2600E28621 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8440F54C14BD8D2600E28621 /* ThreeViewNavContTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeViewNavContTests-Info.plist"; sourceTree = "<group>"; };
+		8440F54E14BD8D2600E28621 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8440F55014BD8D2600E28621 /* ThreeViewNavContTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewNavContTests.h; sourceTree = "<group>"; };
+		8440F55214BD8D2600E28621 /* ThreeViewNavContTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewNavContTests.m; sourceTree = "<group>"; };
+		8440F55C14BD8D6000E28621 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8440F55D14BD8D6000E28621 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8440F55E14BD8D6000E28621 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		8440F56114BD8D7600E28621 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8440F56214BD8D7600E28621 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8440F56314BD8D7600E28621 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		8440F56B14BD8DA100E28621 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		8440F56C14BD8DA100E28621 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		8440F56D14BD8DA100E28621 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8440F51B14BD8D2600E28621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8440F52314BD8D2600E28621 /* UIKit.framework in Frameworks */,
+				8440F52514BD8D2600E28621 /* Foundation.framework in Frameworks */,
+				8440F52714BD8D2600E28621 /* CoreGraphics.framework in Frameworks */,
+				8440F52914BD8D2600E28621 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8440F53D14BD8D2600E28621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8440F54314BD8D2600E28621 /* SenTestingKit.framework in Frameworks */,
+				8440F54414BD8D2600E28621 /* UIKit.framework in Frameworks */,
+				8440F54514BD8D2600E28621 /* Foundation.framework in Frameworks */,
+				8440F54614BD8D2600E28621 /* CoreGraphics.framework in Frameworks */,
+				8440F54714BD8D2600E28621 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8440F51314BD8D2600E28621 = {
+			isa = PBXGroup;
+			children = (
+				8440F52A14BD8D2600E28621 /* ThreeViewNavCont */,
+				8440F54A14BD8D2600E28621 /* ThreeViewNavContTests */,
+				8440F52114BD8D2600E28621 /* Frameworks */,
+				8440F51F14BD8D2600E28621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8440F51F14BD8D2600E28621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8440F51E14BD8D2600E28621 /* ThreeViewNavCont.app */,
+				8440F54114BD8D2600E28621 /* ThreeViewNavContTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8440F52114BD8D2600E28621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8440F52214BD8D2600E28621 /* UIKit.framework */,
+				8440F52414BD8D2600E28621 /* Foundation.framework */,
+				8440F52614BD8D2600E28621 /* CoreGraphics.framework */,
+				8440F52814BD8D2600E28621 /* CoreData.framework */,
+				8440F54214BD8D2600E28621 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8440F52A14BD8D2600E28621 /* ThreeViewNavCont */ = {
+			isa = PBXGroup;
+			children = (
+				8440F53314BD8D2600E28621 /* ThreeViewNavContAppDelegate.h */,
+				8440F53414BD8D2600E28621 /* ThreeViewNavContAppDelegate.m */,
+				8440F53614BD8D2600E28621 /* MainWindow.xib */,
+				8440F53914BD8D2600E28621 /* ThreeViewNavCont.xcdatamodeld */,
+				8440F52B14BD8D2600E28621 /* Supporting Files */,
+				8440F55C14BD8D6000E28621 /* FirstViewController.h */,
+				8440F55D14BD8D6000E28621 /* FirstViewController.m */,
+				8440F55E14BD8D6000E28621 /* FirstViewController.xib */,
+				8440F56114BD8D7600E28621 /* SecondViewController.h */,
+				8440F56214BD8D7600E28621 /* SecondViewController.m */,
+				8440F56314BD8D7600E28621 /* SecondViewController.xib */,
+				8440F56B14BD8DA100E28621 /* ThirdViewController.h */,
+				8440F56C14BD8DA100E28621 /* ThirdViewController.m */,
+				8440F56D14BD8DA100E28621 /* ThirdViewController.xib */,
+			);
+			path = ThreeViewNavCont;
+			sourceTree = "<group>";
+		};
+		8440F52B14BD8D2600E28621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8440F52C14BD8D2600E28621 /* ThreeViewNavCont-Info.plist */,
+				8440F52D14BD8D2600E28621 /* InfoPlist.strings */,
+				8440F53014BD8D2600E28621 /* main.m */,
+				8440F53214BD8D2600E28621 /* ThreeViewNavCont-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8440F54A14BD8D2600E28621 /* ThreeViewNavContTests */ = {
+			isa = PBXGroup;
+			children = (
+				8440F55014BD8D2600E28621 /* ThreeViewNavContTests.h */,
+				8440F55214BD8D2600E28621 /* ThreeViewNavContTests.m */,
+				8440F54B14BD8D2600E28621 /* Supporting Files */,
+			);
+			path = ThreeViewNavContTests;
+			sourceTree = "<group>";
+		};
+		8440F54B14BD8D2600E28621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8440F54C14BD8D2600E28621 /* ThreeViewNavContTests-Info.plist */,
+				8440F54D14BD8D2600E28621 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8440F51D14BD8D2600E28621 /* ThreeViewNavCont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8440F55614BD8D2600E28621 /* Build configuration list for PBXNativeTarget "ThreeViewNavCont" */;
+			buildPhases = (
+				8440F51A14BD8D2600E28621 /* Sources */,
+				8440F51B14BD8D2600E28621 /* Frameworks */,
+				8440F51C14BD8D2600E28621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeViewNavCont;
+			productName = ThreeViewNavCont;
+			productReference = 8440F51E14BD8D2600E28621 /* ThreeViewNavCont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8440F54014BD8D2600E28621 /* ThreeViewNavContTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8440F55914BD8D2600E28621 /* Build configuration list for PBXNativeTarget "ThreeViewNavContTests" */;
+			buildPhases = (
+				8440F53C14BD8D2600E28621 /* Sources */,
+				8440F53D14BD8D2600E28621 /* Frameworks */,
+				8440F53E14BD8D2600E28621 /* Resources */,
+				8440F53F14BD8D2600E28621 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8440F54914BD8D2600E28621 /* PBXTargetDependency */,
+			);
+			name = ThreeViewNavContTests;
+			productName = ThreeViewNavContTests;
+			productReference = 8440F54114BD8D2600E28621 /* ThreeViewNavContTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8440F51514BD8D2600E28621 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8440F51814BD8D2600E28621 /* Build configuration list for PBXProject "ThreeViewNavCont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8440F51314BD8D2600E28621;
+			productRefGroup = 8440F51F14BD8D2600E28621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8440F51D14BD8D2600E28621 /* ThreeViewNavCont */,
+				8440F54014BD8D2600E28621 /* ThreeViewNavContTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8440F51C14BD8D2600E28621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8440F52F14BD8D2600E28621 /* InfoPlist.strings in Resources */,
+				8440F53814BD8D2600E28621 /* MainWindow.xib in Resources */,
+				8440F56014BD8D6000E28621 /* FirstViewController.xib in Resources */,
+				8440F56514BD8D7600E28621 /* SecondViewController.xib in Resources */,
+				8440F56F14BD8DA100E28621 /* ThirdViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8440F53E14BD8D2600E28621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8440F54F14BD8D2600E28621 /* InfoPlist.strings in Resources */,
+				8440F55114BD8D2600E28621 /* ThreeViewNavContTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8440F53F14BD8D2600E28621 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8440F51A14BD8D2600E28621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8440F53114BD8D2600E28621 /* main.m in Sources */,
+				8440F53514BD8D2600E28621 /* ThreeViewNavContAppDelegate.m in Sources */,
+				8440F53B14BD8D2600E28621 /* ThreeViewNavCont.xcdatamodeld in Sources */,
+				8440F55F14BD8D6000E28621 /* FirstViewController.m in Sources */,
+				8440F56414BD8D7600E28621 /* SecondViewController.m in Sources */,
+				8440F56E14BD8DA100E28621 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8440F53C14BD8D2600E28621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8440F55314BD8D2600E28621 /* ThreeViewNavContTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8440F54914BD8D2600E28621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8440F51D14BD8D2600E28621 /* ThreeViewNavCont */;
+			targetProxy = 8440F54814BD8D2600E28621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8440F52D14BD8D2600E28621 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8440F52E14BD8D2600E28621 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8440F53614BD8D2600E28621 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8440F53714BD8D2600E28621 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8440F54D14BD8D2600E28621 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8440F54E14BD8D2600E28621 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8440F55414BD8D2600E28621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8440F55514BD8D2600E28621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8440F55714BD8D2600E28621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeViewNavCont/ThreeViewNavCont-Prefix.pch";
+				INFOPLIST_FILE = "ThreeViewNavCont/ThreeViewNavCont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8440F55814BD8D2600E28621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeViewNavCont/ThreeViewNavCont-Prefix.pch";
+				INFOPLIST_FILE = "ThreeViewNavCont/ThreeViewNavCont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8440F55A14BD8D2600E28621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThreeViewNavCont.app/ThreeViewNavCont";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeViewNavCont/ThreeViewNavCont-Prefix.pch";
+				INFOPLIST_FILE = "ThreeViewNavContTests/ThreeViewNavContTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8440F55B14BD8D2600E28621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThreeViewNavCont.app/ThreeViewNavCont";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeViewNavCont/ThreeViewNavCont-Prefix.pch";
+				INFOPLIST_FILE = "ThreeViewNavContTests/ThreeViewNavContTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8440F51814BD8D2600E28621 /* Build configuration list for PBXProject "ThreeViewNavCont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8440F55414BD8D2600E28621 /* Debug */,
+				8440F55514BD8D2600E28621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8440F55614BD8D2600E28621 /* Build configuration list for PBXNativeTarget "ThreeViewNavCont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8440F55714BD8D2600E28621 /* Debug */,
+				8440F55814BD8D2600E28621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8440F55914BD8D2600E28621 /* Build configuration list for PBXNativeTarget "ThreeViewNavContTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8440F55A14BD8D2600E28621 /* Debug */,
+				8440F55B14BD8D2600E28621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8440F53914BD8D2600E28621 /* ThreeViewNavCont.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8440F53A14BD8D2600E28621 /* ThreeViewNavCont.xcdatamodel */,
+			);
+			currentVersion = 8440F53A14BD8D2600E28621 /* ThreeViewNavCont.xcdatamodel */;
+			path = ThreeViewNavCont.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8440F51514BD8D2600E28621 /* Project object */;
+}

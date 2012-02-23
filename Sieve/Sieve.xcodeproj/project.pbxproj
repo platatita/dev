@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C4609814AF8C85003D6DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4609714AF8C85003D6DA1 /* UIKit.framework */; };
+		84C4609A14AF8C85003D6DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4609914AF8C85003D6DA1 /* Foundation.framework */; };
+		84C4609C14AF8C85003D6DA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4609B14AF8C85003D6DA1 /* CoreGraphics.framework */; };
+		84C4609E14AF8C85003D6DA1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4609D14AF8C85003D6DA1 /* CoreData.framework */; };
+		84C460A414AF8C85003D6DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C460A214AF8C85003D6DA1 /* InfoPlist.strings */; };
+		84C460A614AF8C85003D6DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C460A514AF8C85003D6DA1 /* main.m */; };
+		84C460AA14AF8C85003D6DA1 /* SieveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C460A914AF8C85003D6DA1 /* SieveAppDelegate.m */; };
+		84C460AD14AF8C85003D6DA1 /* Sieve.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84C460AB14AF8C85003D6DA1 /* Sieve.xcdatamodeld */; };
+		84C460B014AF8C85003D6DA1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C460AE14AF8C85003D6DA1 /* MainWindow.xib */; };
+		84C460B314AF8C85003D6DA1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C460B214AF8C85003D6DA1 /* MainViewController.m */; };
+		84C460B514AF8C85003D6DA1 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C460B414AF8C85003D6DA1 /* MainView.xib */; };
+		84C460B814AF8C85003D6DA1 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C460B714AF8C85003D6DA1 /* FlipsideViewController.m */; };
+		84C460BA14AF8C85003D6DA1 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C460B914AF8C85003D6DA1 /* FlipsideView.xib */; };
+		84C460C214AF8C85003D6DA1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C460C114AF8C85003D6DA1 /* SenTestingKit.framework */; };
+		84C460C314AF8C85003D6DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4609714AF8C85003D6DA1 /* UIKit.framework */; };
+		84C460C414AF8C85003D6DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4609914AF8C85003D6DA1 /* Foundation.framework */; };
+		84C460C514AF8C85003D6DA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4609B14AF8C85003D6DA1 /* CoreGraphics.framework */; };
+		84C460C614AF8C85003D6DA1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4609D14AF8C85003D6DA1 /* CoreData.framework */; };
+		84C460CE14AF8C85003D6DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C460CC14AF8C85003D6DA1 /* InfoPlist.strings */; };
+		84C460D014AF8C85003D6DA1 /* SieveTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 84C460CF14AF8C85003D6DA1 /* SieveTests.h */; };
+		84C460D214AF8C85003D6DA1 /* SieveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C460D114AF8C85003D6DA1 /* SieveTests.m */; };
+		84C460DD14AF8CC0003D6DA1 /* FooBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C460DC14AF8CC0003D6DA1 /* FooBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C460C714AF8C85003D6DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C4608A14AF8C85003D6DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C4609214AF8C85003D6DA1;
+			remoteInfo = Sieve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C4609314AF8C85003D6DA1 /* Sieve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sieve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C4609714AF8C85003D6DA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84C4609914AF8C85003D6DA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84C4609B14AF8C85003D6DA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84C4609D14AF8C85003D6DA1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84C460A114AF8C85003D6DA1 /* Sieve-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sieve-Info.plist"; sourceTree = "<group>"; };
+		84C460A314AF8C85003D6DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C460A514AF8C85003D6DA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C460A714AF8C85003D6DA1 /* Sieve-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sieve-Prefix.pch"; sourceTree = "<group>"; };
+		84C460A814AF8C85003D6DA1 /* SieveAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SieveAppDelegate.h; sourceTree = "<group>"; };
+		84C460A914AF8C85003D6DA1 /* SieveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SieveAppDelegate.m; sourceTree = "<group>"; };
+		84C460AC14AF8C85003D6DA1 /* Sieve.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sieve.xcdatamodel; sourceTree = "<group>"; };
+		84C460AF14AF8C85003D6DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		84C460B114AF8C85003D6DA1 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		84C460B214AF8C85003D6DA1 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		84C460B414AF8C85003D6DA1 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		84C460B614AF8C85003D6DA1 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		84C460B714AF8C85003D6DA1 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		84C460B914AF8C85003D6DA1 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		84C460C014AF8C85003D6DA1 /* SieveTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SieveTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C460C114AF8C85003D6DA1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84C460CB14AF8C85003D6DA1 /* SieveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SieveTests-Info.plist"; sourceTree = "<group>"; };
+		84C460CD14AF8C85003D6DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C460CF14AF8C85003D6DA1 /* SieveTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SieveTests.h; sourceTree = "<group>"; };
+		84C460D114AF8C85003D6DA1 /* SieveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SieveTests.m; sourceTree = "<group>"; };
+		84C460DB14AF8CC0003D6DA1 /* FooBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooBar.h; sourceTree = "<group>"; };
+		84C460DC14AF8CC0003D6DA1 /* FooBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C4609014AF8C85003D6DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C4609814AF8C85003D6DA1 /* UIKit.framework in Frameworks */,
+				84C4609A14AF8C85003D6DA1 /* Foundation.framework in Frameworks */,
+				84C4609C14AF8C85003D6DA1 /* CoreGraphics.framework in Frameworks */,
+				84C4609E14AF8C85003D6DA1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C460BC14AF8C85003D6DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C460C214AF8C85003D6DA1 /* SenTestingKit.framework in Frameworks */,
+				84C460C314AF8C85003D6DA1 /* UIKit.framework in Frameworks */,
+				84C460C414AF8C85003D6DA1 /* Foundation.framework in Frameworks */,
+				84C460C514AF8C85003D6DA1 /* CoreGraphics.framework in Frameworks */,
+				84C460C614AF8C85003D6DA1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C4608814AF8C85003D6DA1 = {
+			isa = PBXGroup;
+			children = (
+				84C4609F14AF8C85003D6DA1 /* Sieve */,
+				84C460C914AF8C85003D6DA1 /* SieveTests */,
+				84C4609614AF8C85003D6DA1 /* Frameworks */,
+				84C4609414AF8C85003D6DA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C4609414AF8C85003D6DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C4609314AF8C85003D6DA1 /* Sieve.app */,
+				84C460C014AF8C85003D6DA1 /* SieveTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C4609614AF8C85003D6DA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C4609714AF8C85003D6DA1 /* UIKit.framework */,
+				84C4609914AF8C85003D6DA1 /* Foundation.framework */,
+				84C4609B14AF8C85003D6DA1 /* CoreGraphics.framework */,
+				84C4609D14AF8C85003D6DA1 /* CoreData.framework */,
+				84C460C114AF8C85003D6DA1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84C4609F14AF8C85003D6DA1 /* Sieve */ = {
+			isa = PBXGroup;
+			children = (
+				84C460DB14AF8CC0003D6DA1 /* FooBar.h */,
+				84C460DC14AF8CC0003D6DA1 /* FooBar.m */,
+				84C460A814AF8C85003D6DA1 /* SieveAppDelegate.h */,
+				84C460A914AF8C85003D6DA1 /* SieveAppDelegate.m */,
+				84C460AE14AF8C85003D6DA1 /* MainWindow.xib */,
+				84C460B114AF8C85003D6DA1 /* MainViewController.h */,
+				84C460B214AF8C85003D6DA1 /* MainViewController.m */,
+				84C460B414AF8C85003D6DA1 /* MainView.xib */,
+				84C460B614AF8C85003D6DA1 /* FlipsideViewController.h */,
+				84C460B714AF8C85003D6DA1 /* FlipsideViewController.m */,
+				84C460B914AF8C85003D6DA1 /* FlipsideView.xib */,
+				84C460AB14AF8C85003D6DA1 /* Sieve.xcdatamodeld */,
+				84C460A014AF8C85003D6DA1 /* Supporting Files */,
+			);
+			path = Sieve;
+			sourceTree = "<group>";
+		};
+		84C460A014AF8C85003D6DA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C460A114AF8C85003D6DA1 /* Sieve-Info.plist */,
+				84C460A214AF8C85003D6DA1 /* InfoPlist.strings */,
+				84C460A514AF8C85003D6DA1 /* main.m */,
+				84C460A714AF8C85003D6DA1 /* Sieve-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C460C914AF8C85003D6DA1 /* SieveTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C460CF14AF8C85003D6DA1 /* SieveTests.h */,
+				84C460D114AF8C85003D6DA1 /* SieveTests.m */,
+				84C460CA14AF8C85003D6DA1 /* Supporting Files */,
+			);
+			path = SieveTests;
+			sourceTree = "<group>";
+		};
+		84C460CA14AF8C85003D6DA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C460CB14AF8C85003D6DA1 /* SieveTests-Info.plist */,
+				84C460CC14AF8C85003D6DA1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C4609214AF8C85003D6DA1 /* Sieve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C460D514AF8C85003D6DA1 /* Build configuration list for PBXNativeTarget "Sieve" */;
+			buildPhases = (
+				84C4608F14AF8C85003D6DA1 /* Sources */,
+				84C4609014AF8C85003D6DA1 /* Frameworks */,
+				84C4609114AF8C85003D6DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sieve;
+			productName = Sieve;
+			productReference = 84C4609314AF8C85003D6DA1 /* Sieve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C460BF14AF8C85003D6DA1 /* SieveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C460D814AF8C85003D6DA1 /* Build configuration list for PBXNativeTarget "SieveTests" */;
+			buildPhases = (
+				84C460BB14AF8C85003D6DA1 /* Sources */,
+				84C460BC14AF8C85003D6DA1 /* Frameworks */,
+				84C460BD14AF8C85003D6DA1 /* Resources */,
+				84C460BE14AF8C85003D6DA1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C460C814AF8C85003D6DA1 /* PBXTargetDependency */,
+			);
+			name = SieveTests;
+			productName = SieveTests;
+			productReference = 84C460C014AF8C85003D6DA1 /* SieveTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C4608A14AF8C85003D6DA1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84C4608D14AF8C85003D6DA1 /* Build configuration list for PBXProject "Sieve" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84C4608814AF8C85003D6DA1;
+			productRefGroup = 84C4609414AF8C85003D6DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C4609214AF8C85003D6DA1 /* Sieve */,
+				84C460BF14AF8C85003D6DA1 /* SieveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C4609114AF8C85003D6DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C460A414AF8C85003D6DA1 /* InfoPlist.strings in Resources */,
+				84C460B014AF8C85003D6DA1 /* MainWindow.xib in Resources */,
+				84C460B514AF8C85003D6DA1 /* MainView.xib in Resources */,
+				84C460BA14AF8C85003D6DA1 /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C460BD14AF8C85003D6DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C460CE14AF8C85003D6DA1 /* InfoPlist.strings in Resources */,
+				84C460D014AF8C85003D6DA1 /* SieveTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84C460BE14AF8C85003D6DA1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C4608F14AF8C85003D6DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C460A614AF8C85003D6DA1 /* main.m in Sources */,
+				84C460AA14AF8C85003D6DA1 /* SieveAppDelegate.m in Sources */,
+				84C460AD14AF8C85003D6DA1 /* Sieve.xcdatamodeld in Sources */,
+				84C460B314AF8C85003D6DA1 /* MainViewController.m in Sources */,
+				84C460B814AF8C85003D6DA1 /* FlipsideViewController.m in Sources */,
+				84C460DD14AF8CC0003D6DA1 /* FooBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C460BB14AF8C85003D6DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C460D214AF8C85003D6DA1 /* SieveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C460C814AF8C85003D6DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C4609214AF8C85003D6DA1 /* Sieve */;
+			targetProxy = 84C460C714AF8C85003D6DA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C460A214AF8C85003D6DA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C460A314AF8C85003D6DA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84C460AE14AF8C85003D6DA1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C460AF14AF8C85003D6DA1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		84C460CC14AF8C85003D6DA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C460CD14AF8C85003D6DA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C460D314AF8C85003D6DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84C460D414AF8C85003D6DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C460D614AF8C85003D6DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sieve/Sieve-Prefix.pch";
+				INFOPLIST_FILE = "Sieve/Sieve-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84C460D714AF8C85003D6DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sieve/Sieve-Prefix.pch";
+				INFOPLIST_FILE = "Sieve/Sieve-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84C460D914AF8C85003D6DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sieve.app/Sieve";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sieve/Sieve-Prefix.pch";
+				INFOPLIST_FILE = "SieveTests/SieveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84C460DA14AF8C85003D6DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sieve.app/Sieve";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sieve/Sieve-Prefix.pch";
+				INFOPLIST_FILE = "SieveTests/SieveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C4608D14AF8C85003D6DA1 /* Build configuration list for PBXProject "Sieve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C460D314AF8C85003D6DA1 /* Debug */,
+				84C460D414AF8C85003D6DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C460D514AF8C85003D6DA1 /* Build configuration list for PBXNativeTarget "Sieve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C460D614AF8C85003D6DA1 /* Debug */,
+				84C460D714AF8C85003D6DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84C460D814AF8C85003D6DA1 /* Build configuration list for PBXNativeTarget "SieveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C460D914AF8C85003D6DA1 /* Debug */,
+				84C460DA14AF8C85003D6DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84C460AB14AF8C85003D6DA1 /* Sieve.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84C460AC14AF8C85003D6DA1 /* Sieve.xcdatamodel */,
+			);
+			currentVersion = 84C460AC14AF8C85003D6DA1 /* Sieve.xcdatamodel */;
+			path = Sieve.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84C4608A14AF8C85003D6DA1 /* Project object */;
+}
