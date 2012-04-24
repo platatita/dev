@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryCache", "MemoryCache\MemoryCache.csproj", "{843EECAE-282E-4B41-94E9-D9C57F2BE02B}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = \u0022$/MemoryCache\u0022,\u0020YJAAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = true
+		SccProjectUniqueName1 = MemoryCache\\MemoryCache.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = MemoryCache\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{843EECAE-282E-4B41-94E9-D9C57F2BE02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843EECAE-282E-4B41-94E9-D9C57F2BE02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843EECAE-282E-4B41-94E9-D9C57F2BE02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843EECAE-282E-4B41-94E9-D9C57F2BE02B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
