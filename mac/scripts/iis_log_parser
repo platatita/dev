@@ -1,0 +1,10 @@
+# below command get from the iis log only the url to the application
+cat ex120531.log | grep "/application/\(part1\|part2\)/" | cut -d ' ' -f 7,8 | sed 's/ /?/' > base_url.txt
+
+# iis log sample:
+2012-05-31 00:01:39 W3SVCXXXXX SERVER 00.000.000.00 GET /application/part1/test,03999100/MRS00003/20120729-20120730/1DR+BB rid=10260699361067121636&token=xxxxxxxxxxx 80 - 00.000.000.00 HTTP/1.1 test - - domain 200 0 0 1010 304 687
+# result
+/application/part1/test,03999100/MRS00003/20120729-20120730/1DR+BB?rid=10260699361067121636&token=xxxxxxxxxxx
+
+# next to replace some parts of url.
+cat base_url.txt | sed 's/\(\/hotel[s]*\/\)\(.*,\)/\1test,/g' | sed 's/\/webservices\//http:\/\/10.117.104.14:81\/webservices\//g' | sed 's/\(token=\)\(.*\)/\1testtokenvalue/g' > test_urls.txt
