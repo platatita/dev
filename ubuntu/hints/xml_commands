@@ -1,0 +1,2 @@
+# format ugly xml '1.xml' to indeeded and formated xml
+cat 1.xml | tidy -utf8 -xml -w 255 -i -c -q -asxml > out.xml
