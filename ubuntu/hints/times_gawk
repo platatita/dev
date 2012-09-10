@@ -1,0 +1,14 @@
+# proc_dest_tfr_20120910.txt file format
+# I, [2012-09-09T19:03:50.085472 #8888]  INFO -- #<SoftconexEdf::Daemons::OneWay:0x0000000571fcc8>: Processing destinations: [["BGI"]]
+# I, [2012-09-09T19:04:05.771847 #8888]  INFO -- #<SoftconexEdf::Daemons::OneWay:0x0000000571fcc8>: Processing destinations: [["BGI"]] done
+# I, [2012-09-09T19:04:08.588008 #8888]  INFO -- #<SoftconexEdf::Daemons::OneWay:0x0000000571fcc8>: Processing destinations: [["KVA"]]
+# I, [2012-09-09T19:04:10.614768 #8888]  INFO -- #<SoftconexEdf::Daemons::OneWay:0x0000000571fcc8>: Processing destinations: [["KVA"]] done
+# I, [2012-09-09T19:05:25.882857 #8888]  INFO -- #<SoftconexEdf::Daemons::OneWay:0x0000000571fcc8>: Processing destinations: [["PUJ"]]
+# I, [2012-09-09T19:14:51.123834 #8888]  INFO -- #<SoftconexEdf::Daemons::OneWay:0x0000000571fcc8>: Processing destinations: [["PUJ"]] done
+# I, [2012-09-09T19:14:54.426185 #8888]  INFO -- #<SoftconexEdf::Daemons::OneWay:0x0000000571fcc8>: Processing destinations: [["ADB"]]
+# I, [2012-09-09T19:15:33.942853 #8888]  INFO -- #<SoftconexEdf::Daemons::OneWay:0x0000000571fcc8>: Processing destinations: [["ADB"]] done
+# I, [2012-09-09T19:15:40.371676 #8888]  INFO -- #<SoftconexEdf::Daemons::OneWay:0x0000000571fcc8>: Processing destinations: [["AMS"]]
+# I, [2012-09-09T19:23:46.239966 #8888]  INFO -- #<SoftconexEdf::Daemons::OneWay:0x0000000571fcc8>: Processing destinations: [["AMS"]] done
+
+# below command calculates time between line without word done and done for the same destinations.
+cat proc_dest_tfr_20120910.txt | gawk '/\]\]$/ { start_line=$0; start_date=substr($2, 2, length($2)-8); split(start_date, sa, /[-T:]/) }; /done$/ { end_date=substr($2, 2, length($2)-8); split(end_date, ea, /[-T:]/); st=mktime(sa[1] " " sa[2] " " sa[3] " " sa[4] " " sa[5] " " sa[6]); et=mktime(ea[1] " " ea[2] " " ea[3] " " ea[4] " " ea[5] " " ea[6]); print $0 " " (et-st)" sec" " " (et-st)/60" min" } ' | tee proc_dest_tfr_20120910.times
