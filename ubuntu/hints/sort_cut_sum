@@ -1,0 +1,1 @@
+zgrep "Processing destinations:.*flights$" trace_tfr_edf.log-20120922.gz | sort -t\| -k3n | cut -d\| -f3 | cut -d' ' -f2 | awk '{sum+=$1} END {print sum}'
