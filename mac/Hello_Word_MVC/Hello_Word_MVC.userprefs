@@ -1,0 +1,41 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hello_Word_MVC/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="Hello_Word_MVC/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Hello_Word_MVC/Views/Home/Index.aspx" Line="1" Column="1" />
+      <File FileName="Hello_Word_MVC.Tests/Controllers/HomeControllerTest.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Hello_Word_MVC" expanded="True">
+            <Node name="Controllers" expanded="True">
+              <Node name="HomeController.cs" selected="True" />
+            </Node>
+            <Node name="Views" expanded="True">
+              <Node name="Home" expanded="True" />
+            </Node>
+            <Node name="Global.asax" expanded="True" />
+          </Node>
+          <Node name="Hello_Word_MVC.Tests" expanded="True">
+            <Node name="Controllers" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

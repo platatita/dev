@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2857B73E-F847-4B02-9238-064979017E93}") = "HelloWord", "HelloWord\HelloWord.cproj", "{72B5FB09-D1EC-4446-89D5-FE46623B3C30}"
+EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "HelloWord", "HelloWord.UnitTests\HelloWord.mdproj", "{E4061569-BD96-40A7-92F6-7AD8DC34AEBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B5FB09-D1EC-4446-89D5-FE46623B3C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B5FB09-D1EC-4446-89D5-FE46623B3C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B5FB09-D1EC-4446-89D5-FE46623B3C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B5FB09-D1EC-4446-89D5-FE46623B3C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4061569-BD96-40A7-92F6-7AD8DC34AEBA}.Debug|Any CPU.ActiveCfg = Default|Any CPU
+		{E4061569-BD96-40A7-92F6-7AD8DC34AEBA}.Debug|Any CPU.Build.0 = Default|Any CPU
+		{E4061569-BD96-40A7-92F6-7AD8DC34AEBA}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{E4061569-BD96-40A7-92F6-7AD8DC34AEBA}.Default|Any CPU.Build.0 = Default|Any CPU
+		{E4061569-BD96-40A7-92F6-7AD8DC34AEBA}.Release|Any CPU.ActiveCfg = Default|Any CPU
+		{E4061569-BD96-40A7-92F6-7AD8DC34AEBA}.Release|Any CPU.Build.0 = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = HelloWord\HelloWord.cproj
+	EndGlobalSection
+EndGlobal
