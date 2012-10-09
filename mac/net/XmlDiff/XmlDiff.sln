@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDiff", "XmlDiff\XmlDiff.csproj", "{AB622BFC-4830-4564-88B0-C320BA999291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDiff.UnitTests", "XmlDiff.UnitTests\XmlDiff.UnitTests.csproj", "{7C6B4E8B-6739-43EC-9946-DF24B88B72EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C6B4E8B-6739-43EC-9946-DF24B88B72EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6B4E8B-6739-43EC-9946-DF24B88B72EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6B4E8B-6739-43EC-9946-DF24B88B72EB}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6B4E8B-6739-43EC-9946-DF24B88B72EB}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{7C6B4E8B-6739-43EC-9946-DF24B88B72EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6B4E8B-6739-43EC-9946-DF24B88B72EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB622BFC-4830-4564-88B0-C320BA999291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB622BFC-4830-4564-88B0-C320BA999291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB622BFC-4830-4564-88B0-C320BA999291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB622BFC-4830-4564-88B0-C320BA999291}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = XmlDiff\XmlDiff.csproj
+	EndGlobalSection
+EndGlobal
