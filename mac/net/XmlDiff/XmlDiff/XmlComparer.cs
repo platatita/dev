@@ -26,20 +26,17 @@ namespace XmlDiff
 		{
 			List<string> resultCollection = new List<string> ();
 
-			foreach (Node expectedNode in expectedNodeCollection) {
+			foreach (Node expectedNode in expectedNodeCollection)
+			{
+				expectedNode.Compared = true;
 
-				Node actualNode = actualNodeCollection.Find (n => n.Equals (expectedNode));
+				Node actualNode = actualNodeCollection.Find (n => n.Equals (expectedNode) && n.Compared == false);
 
 				if (actualNode != null) {
 					actualNode.Compared = true;
 				} else {
-					resultCollection.Add (expectedNode.ToString ());
+					resultCollection.Add (string.Format("{0} => {1}", "Expected", expectedNode.ToString ()));
 				}
-			}
-
-			if (resultCollection.Count > 0) {
-				resultCollection.Insert (0, "Expected node/nodes not found");
-				resultCollection.Insert (1, Environment.NewLine);
 			}
 
 			return resultCollection;		
@@ -50,8 +47,12 @@ namespace XmlDiff
 			List<string> resultCollection = new List<string> ();
 			
 			List<Node> actualNotCompared = actualNodeCollection.FindAll (n => !n.Compared);
-			if (actualNotCompared != null) {
-				resultCollection.AddRange (actualNotCompared.ConvertAll (c => c.ToString ()));
+			if (actualNotCompared != null)
+			{
+				foreach(Node node in actualNotCompared)
+				{
+					resultCollection.Add (string.Format("{0} => {1}", "Actual", node.ToString()));
+				}
 			}
 
 			return resultCollection;

@@ -7,7 +7,7 @@ namespace XmlDiff
 	internal class Node
 	{
 		internal int Depth;
-		internal string Name;
+		internal virtual string Name { get; set; }
 		internal string Text;
 		internal Dictionary<string, string> AttributeCollection = new Dictionary<string, string>();
 		internal bool Compared;
@@ -31,7 +31,8 @@ namespace XmlDiff
 					objNode.Name == this.Name &&
 					objNode.Text == this.Text &&
 					objNode.AttributeCollection.Count == this.AttributeCollection.Count &&
-					CompareAttributes(objNode.AttributeCollection);
+					CompareAttributes(objNode.AttributeCollection) &&
+					objNode.Parent != null && this.Parent != null ? objNode.Parent.Equals(this.Parent) : true;
 						
 			}
 			
@@ -67,13 +68,14 @@ namespace XmlDiff
 		
 		public override string ToString ()
 		{
-			return string.Format ("Depth: {0}; Name: {1}; Text: {3}; Compared: {4}; AttrCount: {2}; AttrValues: {5}", 
+			return string.Format ("Depth: {0}; Parent: {6}; Name: {1}; Text: {3}; Compared: {4}; AttrCount: {2}; AttrValues: {5}", 
 				this.Depth,
 				this.Name,
 				this.AttributeCollection.Count,
 				this.Text,
 				this.Compared,
-				AttributeCollectionToString());
+				AttributeCollectionToString(),
+				this.Parent.Name);
 		}
 		
 		private string AttributeCollectionToString ()
@@ -82,8 +84,7 @@ namespace XmlDiff
 			
 			foreach(KeyValuePair<string, string> kvp in this.AttributeCollection)
 			{
-				sb.AppendFormat("{0}:{1}", kvp.Key, kvp.Value);
-				sb.AppendLine();
+				sb.AppendFormat("{0}:{1},", kvp.Key, kvp.Value);
 			}
 			
 			return sb.ToString();

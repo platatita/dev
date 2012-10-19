@@ -22,8 +22,10 @@ namespace XmlDiff
 			Queue<Node> queue = new Queue<Node>();
 			queue.Enqueue (root);
 
-			Node currentNode = null;
-
+			Node parent = null;
+			Node lastNode = null;
+			int lastDepth = 0;
+			
 			using (StringReader sr = new StringReader(this.xml))
 			{
 				using (base.xmlReader = XmlReader.Create(sr))
@@ -34,12 +36,20 @@ namespace XmlDiff
 		            {
 		                if (base.IsStartElement())
 		                {
-							Node parent = currentNode ?? root;
+							if (base.xmlReader.Depth == 0)
+							{
+								parent = root;
+							}
+							else if (lastDepth < base.xmlReader.Depth)
+							{
+								parent = lastNode;
+							}
 
-							currentNode = new Node(parent);
+							Node currentNode = new Node(parent);
+							lastNode = currentNode;
 							queue.Enqueue (currentNode);
 							
-							currentNode.Depth = base.xmlReader.Depth;
+							lastDepth = currentNode.Depth = base.xmlReader.Depth;
 							currentNode.Name = base.xmlReader.Name;
 
 							if (base.xmlReader.HasAttributes)
@@ -51,12 +61,14 @@ namespace XmlDiff
 							{
 								currentNode.Text = base.xmlReader.Value;
 							}
+							
+							nodeCollection.Add(currentNode);
 						}
 						else if (base.IsEndElement ())
 						{
-							nodeCollection.Add(currentNode);
+							lastDepth = base.xmlReader.Depth;
 							
-							currentNode = queue.Dequeue ();
+							parent = queue.Dequeue ();
 						}
 					}
 					
@@ -75,6 +87,8 @@ namespace XmlDiff
 				
 				node.AttributeCollection.Add(base.xmlReader.Name, base.xmlReader.GetAttribute(i));
 			}
+			
+			base.xmlReader.MoveToElement();
 		}
 	}
 }

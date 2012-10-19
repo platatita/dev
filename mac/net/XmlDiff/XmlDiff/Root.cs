@@ -10,6 +10,17 @@ namespace XmlDiff
 			: base()
 		{
 		}
+		
+		internal override string Name 
+		{
+			get { return "Root"; }
+			set { throw new InvalidOperationException(); }
+		}
+		
+		public override string ToString ()
+		{
+			return "Root";
+		}
 	}
 }
 
