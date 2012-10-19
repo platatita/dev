@@ -1,22 +1,24 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XmlDiff.UnitTests/DeploymentItem.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XmlDiff/XmlComparer.cs">
     <Files>
-      <File FileName="XmlDiff/XmlComparer.cs" Line="54" Column="63" />
+      <File FileName="XmlDiff/XmlComparer.cs" Line="8" Column="3" />
       <File FileName="XmlDiff/XmlConverter.cs" Line="75" Column="1" />
       <File FileName="XmlDiff/Node.cs" Line="87" Column="30" />
-      <File FileName="XmlDiff.UnitTests/XmlComparerTest.cs" Line="3" Column="14" />
-      <File FileName="XmlDiff.UnitTests/DeploymentItem.cs" Line="17" Column="5" />
+      <File FileName="XmlDiff.UnitTests/XmlComparerTest.cs" Line="14" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="XmlDiff" expanded="True" />
+          <Node name="XmlDiff" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="XmlComparer.cs" selected="True" />
+          </Node>
           <Node name="XmlDiff.UnitTests" expanded="True">
             <Node name="Xml" expanded="True">
               <Node name="Case1_MixNodes" expanded="True" />
+              <Node name="Case2_OK" expanded="True" />
             </Node>
-            <Node name="DeploymentItem.cs" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -37,10 +39,8 @@
         <State expanded="True">
           <Node name="XmlDiff.UnitTests" expanded="True">
             <Node name="XmlDiff" expanded="True">
-              <Node name="UnitTests" expanded="True">
-                <Node name="XmlComparerTest" expanded="True">
-                  <Node name="Case1_MixNodes_Test" selected="True" />
-                </Node>
+              <Node name="UnitTests" expanded="True" selected="True">
+                <Node name="XmlComparerTest" expanded="True" />
               </Node>
             </Node>
           </Node>

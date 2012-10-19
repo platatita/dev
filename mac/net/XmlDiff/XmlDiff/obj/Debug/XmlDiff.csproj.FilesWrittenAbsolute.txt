@@ -1,0 +1,4 @@
+/home/ms/sources/git/dev/mac/net/XmlDiff/XmlDiff/bin/Debug/XmlDiff.dll.mdb
+/home/ms/sources/git/dev/mac/net/XmlDiff/XmlDiff/bin/Debug/XmlDiff.dll
+/home/ms/sources/git/dev/mac/net/XmlDiff/XmlDiff/obj/Debug/XmlDiff.dll
+/home/ms/sources/git/dev/mac/net/XmlDiff/XmlDiff/obj/Debug/XmlDiff.dll.mdb

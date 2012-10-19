@@ -4,14 +4,14 @@ using System.Text;
 
 namespace XmlDiff
 {
-	internal class Node
+	public class Node
 	{
-		internal int Depth;
-		internal virtual string Name { get; set; }
-		internal string Text;
-		internal Dictionary<string, string> AttributeCollection = new Dictionary<string, string>();
-		internal bool Compared;
-		internal Node Parent { get; private set; }
+		public int Depth;
+		public virtual string Name { get; set; }
+		public string Text;
+		public Dictionary<string, string> AttributeCollection = new Dictionary<string, string>();
+		public bool Compared;
+		public Node Parent { get; private set; }
 
 		protected Node ()
 		{

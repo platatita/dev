@@ -11,7 +11,7 @@ namespace XmlDiff
 		{
 		}
 		
-		internal override string Name 
+		public override string Name 
 		{
 			get { return "Root"; }
 			set { throw new InvalidOperationException(); }

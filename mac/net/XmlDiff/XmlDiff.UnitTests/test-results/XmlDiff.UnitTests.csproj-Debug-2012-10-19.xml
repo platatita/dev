@@ -34,6 +34,17 @@ Execution time: 0.09ms</Message>
 
 Execution time: 0.12ms</Message>
     </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-10-19T13:52:52</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.15ms</Message>
+    </UnitTestResult>
   </Results>
   <Tests>
     <TestRecord Name="XmlDiff">
@@ -70,6 +81,17 @@ Execution time: 0.09ms</Message>
           <Message>Test successful
 
 Execution time: 0.12ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-10-19T13:52:52</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.13ms</Message>
         </UnitTestResult>
       </Results>
       <Tests>
@@ -129,6 +151,17 @@ Execution time: 0.11ms</Message>
 
 Execution time: 0.12ms</Message>
             </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-10-19T13:52:52</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.12ms</Message>
+            </UnitTestResult>
           </Results>
           <Tests>
             <TestRecord Name="XmlComparerTest">
@@ -176,6 +209,17 @@ Execution time: 0.10ms</Message>
                   <Message>Test successful
 
 Execution time: 0.10ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-10-19T13:52:52</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>4</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.11ms</Message>
                 </UnitTestResult>
               </Results>
               <Tests>
@@ -658,6 +702,19 @@ Execution time: 0.02ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-10-19T13:52:52</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                   <Tests />
                 </TestRecord>
@@ -702,7 +759,21 @@ Execution time: 0.00ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-10-19T13:52:52</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
+                  <Tests />
                 </TestRecord>
                 <TestRecord Name="Case2_AttrOrderChange_OK_Test">
                   <Results>
@@ -732,7 +803,21 @@ Execution time: 0.00ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-10-19T13:52:52</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
+                  <Tests />
                 </TestRecord>
               </Tests>
             </TestRecord>

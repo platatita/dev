@@ -1,0 +1,42 @@
+<FlightRoot SchemaVersion="1.012" xmlns="http://www.vilauma.de/edf/Flight">
+	<BasicData Code="BGIFRA-I" Usage="FlightOnly" ProductType="Inbound" DepartureAirport="BGI" ArrivalAirport="FRA" AirType="Scheduled" TourOperatorCode="TFR" Source="Softconex" ClassCombination="true" />
+	<SellingData Currency="EUR" Start="2012-09-12" End="2012-09-20">
+		<Flights>
+			<Flight FlightKey="BGIJFK-20120918-14:40:00-AA1384-SJFKLHR-20120918-21:10:00-AA104-SLHRFRA-20120919-10:50:00-AA6576-S" DepartureDate="2012-09-18" DepartureTime="14:40:00" ArrivalDate="2012-09-19" ArrivalTime="13:35:00" BookingClass="S">
+				<Segments>
+					<Segment Number="0" Airline="AA" FlightNumber="1384" DepartureDate="2012-09-18" DepartureTime="14:40:00" ArrivalDate="2012-09-18" ArrivalTime="19:55:00" DepartureAirport="BGI" ArrivalAirport="JFK" BookingClass="S" />
+					<Segment Number="1" Airline="AA" FlightNumber="104" DepartureDate="2012-09-18" DepartureTime="21:10:00" ArrivalDate="2012-09-19" ArrivalTime="09:00:00" DepartureAirport="JFK" ArrivalAirport="LHR" BookingClass="S" />
+					<Segment Number="2" Airline="AA" FlightNumber="6576" DepartureDate="2012-09-19" DepartureTime="10:50:00" ArrivalDate="2012-09-19" ArrivalTime="13:35:00" DepartureAirport="LHR" ArrivalAirport="FRA" BookingClass="S" />
+				</Segments>
+			</Flight>
+			<Flight ArrivalDate="2012-09-26" ArrivalTime="13:35:00" BookingClass="S" FlightKey="BGIJFK-20120925-14:40:00-AA1384-SJFKLHR-20120925-21:10:00-AA104-SLHRFRA-20120926-10:50:00-AA6576-S" DepartureDate="2012-09-25" DepartureTime="14:40:00">
+				<Segments>
+					<Segment Number="0" Airline="AA" FlightNumber="1384" DepartureDate="2012-09-25" DepartureTime="14:40:00" ArrivalDate="2012-09-25" ArrivalTime="19:55:00" DepartureAirport="BGI" ArrivalAirport="JFK" BookingClass="S" />
+					<Segment Number="1" Airline="AA" FlightNumber="104" DepartureDate="2012-09-25" DepartureTime="21:10:00" ArrivalDate="2012-09-26" ArrivalTime="09:00:00" DepartureAirport="JFK" ArrivalAirport="LHR" BookingClass="S" />
+					<Segment Number="2" Airline="AA" FlightNumber="6576" DepartureDate="2012-09-26" DepartureTime="10:50:00" ArrivalDate="2012-09-26" ArrivalTime="13:35:00" DepartureAirport="LHR" ArrivalAirport="FRA" BookingClass="S" />
+				</Segments>
+			</Flight>
+			<Flight FlightKey="BGIJFK-20120925-14:40:00-AA1384-SJFKLHR-20120925-23:10:00-AA106-SLHRFRA-20120926-13:45:00-AA6462-S" DepartureDate="2012-09-25" DepartureTime="14:40:00" ArrivalDate="2012-09-26" ArrivalTime="16:30:00" BookingClass="S">
+				<Segments>
+					<Segment Number="0" Airline="AA" FlightNumber="1384" DepartureDate="2012-09-25" DepartureTime="14:40:00" ArrivalDate="2012-09-25" ArrivalTime="19:55:00" DepartureAirport="BGI" ArrivalAirport="JFK" BookingClass="S" />
+					<Segment Number="1" Airline="AA" FlightNumber="106" DepartureDate="2012-09-25" DepartureTime="23:10:00" ArrivalDate="2012-09-26" ArrivalTime="11:00:00" DepartureAirport="JFK" ArrivalAirport="LHR" BookingClass="S" />
+					<Segment Number="2" Airline="AA" FlightNumber="6462" DepartureAirport="LHR" ArrivalAirport="FRA" BookingClass="S" DepartureDate="2012-09-26" DepartureTime="13:45:00" ArrivalDate="2012-09-26" ArrivalTime="16:30:00" />
+				</Segments>
+			</Flight>
+			<Flight FlightKey="BGIJFK-20120920-14:40:00-AA1384-SJFKLHR-20120920-23:10:00-AA106-SLHRFRA-20120921-13:45:00-AA6462-S" DepartureDate="2012-09-20" DepartureTime="14:40:00" ArrivalDate="2012-09-21" ArrivalTime="16:30:00" BookingClass="S">
+				<Segments>
+					<Segment Number="0" Airline="AA" FlightNumber="1384" DepartureDate="2012-09-20" DepartureTime="14:40:00" ArrivalDate="2012-09-20" ArrivalTime="19:55:00" DepartureAirport="BGI" ArrivalAirport="JFK" BookingClass="S" />
+					<Segment Number="1" Airline="AA" FlightNumber="106" DepartureDate="2012-09-20" DepartureTime="23:10:00" ArrivalDate="2012-09-21" ArrivalTime="11:00:00" DepartureAirport="JFK" ArrivalAirport="LHR" BookingClass="S" />
+					<Segment Number="2" Airline="AA" FlightNumber="6462" DepartureDate="2012-09-21" DepartureTime="13:45:00" ArrivalDate="2012-09-21" ArrivalTime="16:30:00" DepartureAirport="LHR" ArrivalAirport="FRA" BookingClass="S" />
+				</Segments>
+			</Flight>
+			<Flight FlightKey="BGIJFK-20120921-14:40:00-AA1384-SJFKLHR-20120921-23:10:00-AA106-SLHRFRA-20120922-15:10:00-AA6461-S" DepartureDate="2012-09-21" DepartureTime="14:40:00" ArrivalDate="2012-09-22" ArrivalTime="17:55:00" BookingClass="S">
+				<Segments>
+					<Segment Number="0" Airline="AA" FlightNumber="1384" DepartureDate="2012-09-21" DepartureTime="14:40:00" ArrivalDate="2012-09-21" ArrivalTime="19:55:00" DepartureAirport="BGI" ArrivalAirport="JFK" BookingClass="S" />
+					<Segment Number="1" Airline="AA" FlightNumber="106" DepartureDate="2012-09-21" DepartureTime="23:10:00" ArrivalDate="2012-09-22" ArrivalTime="11:00:00" DepartureAirport="JFK" ArrivalAirport="LHR" BookingClass="S" />
+					<Segment Number="2" Airline="AA" FlightNumber="6461" DepartureDate="2012-09-22" DepartureTime="15:10:00" ArrivalDate="2012-09-22" ArrivalTime="17:55:00" DepartureAirport="LHR" ArrivalAirport="FRA" BookingClass="S" />
+				</Segments>
+			</Flight>
+		</Flights>
+	</SellingData>
+</FlightRoot>

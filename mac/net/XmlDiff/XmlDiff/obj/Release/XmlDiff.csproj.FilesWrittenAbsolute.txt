@@ -1,0 +1,2 @@
+/home/ms/sources/git/dev/mac/net/XmlDiff/XmlDiff/bin/Release/XmlDiff.dll
+/home/ms/sources/git/dev/mac/net/XmlDiff/XmlDiff/obj/Release/XmlDiff.dll

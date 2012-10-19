@@ -1,0 +1,2 @@
+/home/ms/sources/git/dev/mac/net/XmlDiff/XmlDiff.UnitTests/bin/Release/XmlDiff.UnitTests.dll
+/home/ms/sources/git/dev/mac/net/XmlDiff/XmlDiff.UnitTests/obj/Release/XmlDiff.UnitTests.dll

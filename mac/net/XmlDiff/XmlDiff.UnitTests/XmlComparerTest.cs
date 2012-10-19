@@ -15,7 +15,7 @@ namespace XmlDiff.UnitTests
 			string expected = File.ReadAllText ("Xml/Case1_MixNodes/expected.xml");
 			string actual = File.ReadAllText ("Xml/Case1_MixNodes/actual.xml");
 
-			List<string> resultCollection = XmlComparer.Compare (expected, actual);
+			List<string> resultCollection = XmlComparer.CompareReturnString (expected, actual);
 			Assert.AreEqual (2, resultCollection.Count);
 			Assert.AreEqual("Expected => Depth: 5; Parent: Segments; Name: Segment; Text: ; Compared: True; AttrCount: 10; AttrValues: Number:2,Airline:AA,FlightNumber:6461,DepartureDate:2012-09-22,DepartureTime:15:10:00,ArrivalDate:2012-09-22,ArrivalTime:17:55:00,DepartureAirport:LHR,ArrivalAirport:FRA,BookingClass:S,", resultCollection[0]);
 			Assert.AreEqual("Actual => Depth: 5; Parent: Segments; Name: Segment; Text: ; Compared: False; AttrCount: 10; AttrValues: Number:2,Airline:AA,FlightNumber:6461,DepartureDate:2012-09-22,DepartureTime:15:10:00,ArrivalDate:2012-09-22,ArrivalTime:17:55:00,DepartureAirport:LHR,ArrivalAirport:FRA,BookingClass:S,", resultCollection[1]);
@@ -28,7 +28,7 @@ namespace XmlDiff.UnitTests
 			string expected = File.ReadAllText ("Xml/Case2_OK/expected.xml");
 			string actual = File.ReadAllText ("Xml/Case2_OK/actual.xml");
 
-			List<string> resultCollection = XmlComparer.Compare (expected, actual);
+			List<string> resultCollection = XmlComparer.CompareReturnString (expected, actual);
 			Assert.AreEqual (0, resultCollection.Count);
 		}
 		
@@ -39,7 +39,7 @@ namespace XmlDiff.UnitTests
 			string expected = File.ReadAllText ("Xml/Case2_AttrOrderChange_OK/expected.xml");
 			string actual = File.ReadAllText ("Xml/Case2_AttrOrderChange_OK/actual.xml");
 
-			List<string> resultCollection = XmlComparer.Compare (expected, actual);
+			List<string> resultCollection = XmlComparer.CompareReturnString (expected, actual);
 			Assert.AreEqual (0, resultCollection.Count);
 		}
 	}
