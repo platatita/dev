@@ -25,14 +25,18 @@ namespace XmlDiff
 		public override bool Equals (object obj)
 		{
 			Node objNode = obj as Node;
-			if (objNode != null && !this.Compared)
+			if (objNode != null)
 			{
-				return objNode.Depth == this.Depth &&
+				if (objNode.Depth == this.Depth &&
 					objNode.Name == this.Name &&
 					objNode.Text == this.Text &&
-					objNode.AttributeCollection.Count == this.AttributeCollection.Count &&
-					CompareAttributes(objNode.AttributeCollection) &&
-					objNode.Parent != null && this.Parent != null ? objNode.Parent.Equals(this.Parent) : true;
+					objNode.AttributeCollection.Count == this.AttributeCollection.Count)
+				{
+					if (CompareAttributes(objNode.AttributeCollection))
+					{
+						return objNode.Parent != null && this.Parent != null ? objNode.Parent.Equals(this.Parent) : true;
+					}
+				}
 						
 			}
 			

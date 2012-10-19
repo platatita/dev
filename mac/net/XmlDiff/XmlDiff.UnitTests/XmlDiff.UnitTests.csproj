@@ -51,13 +51,16 @@
   <ItemGroup>
     <Folder Include="Xml\" />
     <Folder Include="Xml\Case1_MixNodes\" />
+    <Folder Include="Xml\Case4\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Xml\Case1_MixNodes\expected.xml" />
     <None Include="Xml\Case1_MixNodes\actual.xml" />
-    <None Include="Xml\Case2_OK\expected.xml" />
-    <None Include="Xml\Case2_OK\actual.xml" />
     <None Include="Xml\Case2_AttrOrderChange_OK\expected.xml" />
     <None Include="Xml\Case2_AttrOrderChange_OK\actual.xml" />
+    <None Include="Xml\Case3_OK\expected.xml" />
+    <None Include="Xml\Case3_OK\actual.xml" />
+    <None Include="Xml\Case4\expected.xml" />
+    <None Include="Xml\Case4\actual.xml" />
   </ItemGroup>
 </Project>

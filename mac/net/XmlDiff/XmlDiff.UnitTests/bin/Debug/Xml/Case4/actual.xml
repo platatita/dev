@@ -1,0 +1,69 @@
+<FlightAllotmentRoot SchemaVersion="1.012" xmlns="http://www.vilauma.de/edf/Flight/Allotment">
+	<BasicData Code="FRABGI-O" Usage="FlightOnly" DepartureAirport="FRA" ArrivalAirport="BGI" TourOperatorCode="TFR" Source="Softconex" />
+	<SellingData>
+		<Allotments>
+			<Allotment Date="2012-09-13" FlightKey="FRALHR-20120913-07:25:00-AA6577-SLHRMIA-20120913-09:50:00-AA57-SMIABGI-20120913-17:30:00-AA1995-S">
+				<Controls>
+					<Control MinDuration="P7D" MaxDuration="P7D">
+						<CombinationAvailability FlightKey="BGIJFK-20120920-14:40:00-AA1384-SJFKLHR-20120920-23:10:00-AA106-SLHRFRA-20120921-13:45:00-AA6462-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR1019.42CHDEUR1019.42INFEUR1019.42" />
+					</Control>
+					<Control MinDuration="P5D" MaxDuration="P5D">
+						<CombinationAvailability FlightKey="BGIJFK-20120918-14:40:00-AA1384-SJFKLHR-20120918-21:10:00-AA104-SLHRFRA-20120919-10:50:00-AA6576-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR1019.42CHDEUR1019.42INFEUR1019.42" />
+					</Control>
+					<Control MinDuration="P8D" MaxDuration="P8D">
+						<CombinationAvailability FlightKey="BGIJFK-20120921-14:40:00-AA1384-SJFKLHR-20120921-23:10:00-AA106-SLHRFRA-20120922-15:10:00-AA6461-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR1019.42CHDEUR1019.42INFEUR1019.42" />
+					</Control>
+					<Control MinDuration="P12D" MaxDuration="P12D">
+						<CombinationAvailability FlightKey="BGIJFK-20120925-14:40:00-AA1384-SJFKLHR-20120925-21:10:00-AA104-SLHRFRA-20120926-10:50:00-AA6576-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR1019.42CHDEUR1019.42INFEUR1019.42" />
+					</Control>
+					<Control MinDuration="P12D" MaxDuration="P12D">
+						<CombinationAvailability FlightKey="BGIJFK-20120925-14:40:00-AA1384-SJFKLHR-20120925-23:10:00-AA106-SLHRFRA-20120926-13:45:00-AA6462-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR1019.42CHDEUR1019.42INFEUR1019.42" />
+					</Control>
+				</Controls>
+			</Allotment>
+			<Allotment Date="2012-09-18" FlightKey="FRALHR-20120918-07:25:00-AA6577-SLHRMIA-20120918-09:50:00-AA57-SMIABGI-20120918-17:30:00-AA1995-S">
+				<Controls>
+					<Control MinDuration="P7D" MaxDuration="P7D">
+						<CombinationAvailability FlightKey="BGIJFK-20120925-14:40:00-AA1384-SJFKLHR-20120925-21:10:00-AA104-SLHRFRA-20120926-10:50:00-AA6576-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR922.67CHDEUR922.67INFEUR922.67" />
+					</Control>
+					<Control MinDuration="P7D" MaxDuration="P7D">
+						<CombinationAvailability FlightKey="BGIJFK-20120925-14:40:00-AA1384-SJFKLHR-20120925-23:10:00-AA106-SLHRFRA-20120926-13:45:00-AA6462-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR922.67CHDEUR922.67INFEUR922.67" />
+					</Control>
+				</Controls>
+			</Allotment>
+			<Allotment Date="2012-09-12" FlightKey="FRALHR-20120912-07:25:00-AA6577-SLHRMIA-20120912-09:50:00-AA57-SMIABGI-20120912-17:30:00-AA1995-S">
+				<Controls>
+					<Control MinDuration="P6D" MaxDuration="P6D">
+						<CombinationAvailability FlightKey="BGIJFK-20120918-14:40:00-AA1384-SJFKLHR-20120918-21:10:00-AA104-SLHRFRA-20120919-10:50:00-AA6576-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR1019.42CHDEUR1019.42INFEUR1019.42" />
+					</Control>
+					<Control MinDuration="P9D" MaxDuration="P9D">
+						<CombinationAvailability FlightKey="BGIJFK-20120921-14:40:00-AA1384-SJFKLHR-20120921-23:10:00-AA106-SLHRFRA-20120922-15:10:00-AA6461-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR1019.42CHDEUR1019.42INFEUR1019.42" />
+					</Control>
+					<Control MinDuration="P8D" MaxDuration="P8D">
+						<CombinationAvailability FlightKey="BGIJFK-20120920-14:40:00-AA1384-SJFKLHR-20120920-23:10:00-AA106-SLHRFRA-20120921-13:45:00-AA6462-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR1019.42CHDEUR1019.42INFEUR1019.42" />
+					</Control>
+				</Controls>
+			</Allotment>
+			<Allotment Date="2012-09-19" FlightKey="FRALHR-20120919-07:25:00-AA6577-SLHRMIA-20120919-09:50:00-AA57-SMIABGI-20120919-17:30:00-AA1995-S">
+				<Controls>
+					<Control MinDuration="P6D" MaxDuration="P6D">
+						<CombinationAvailability FlightKey="BGIJFK-20120925-14:40:00-AA1384-SJFKLHR-20120925-21:10:00-AA104-SLHRFRA-20120926-10:50:00-AA6576-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR922.67CHDEUR922.67INFEUR922.67" />
+					</Control>
+					<Control MinDuration="P6D" MaxDuration="P6D">
+						<CombinationAvailability FlightKey="BGIJFK-20120925-14:40:00-AA1384-SJFKLHR-20120925-23:10:00-AA106-SLHRFRA-20120926-13:45:00-AA6462-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR922.67CHDEUR922.67INFEUR922.67" />
+					</Control>
+				</Controls>
+			</Allotment>
+			<Allotment Date="2012-09-20" FlightKey="FRALHR-20120920-07:25:00-AA6577-SLHRMIA-20120920-09:50:00-AA57-SMIABGI-20120920-17:30:00-AA1995-S">
+				<Controls>
+					<Control MinDuration="P5D" MaxDuration="P5D">
+						<CombinationAvailability FlightKey="BGIJFK-20120925-14:40:00-AA1384-SJFKLHR-20120925-21:10:00-AA104-SLHRFRA-20120926-10:50:00-AA6576-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR922.67CHDEUR922.67INFEUR922.67" />
+					</Control>
+					<Control MinDuration="P5D" MaxDuration="P5D">
+						<CombinationAvailability FlightKey="BGIJFK-20120925-14:40:00-AA1384-SJFKLHR-20120925-23:10:00-AA106-SLHRFRA-20120926-13:45:00-AA6462-S" Priority="100" Availability="*" AllotmentPriceTable="ADTEUR922.67CHDEUR922.67INFEUR922.67" />
+					</Control>
+				</Controls>
+			</Allotment>
+		</Allotments>
+	</SellingData>
+</FlightAllotmentRoot>

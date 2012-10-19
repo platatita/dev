@@ -19,8 +19,8 @@ namespace XmlDiff
 		{
 			Root root = new Root();
 
-			Queue<Node> queue = new Queue<Node>();
-			queue.Enqueue (root);
+			Stack<Node> queue = new Stack<Node>();
+			queue.Push (root);
 
 			Node parent = null;
 			Node lastNode = null;
@@ -42,12 +42,12 @@ namespace XmlDiff
 							}
 							else if (lastDepth < base.xmlReader.Depth)
 							{
+								queue.Push(lastNode);								
 								parent = lastNode;
 							}
 
 							Node currentNode = new Node(parent);
 							lastNode = currentNode;
-							queue.Enqueue (currentNode);
 							
 							lastDepth = currentNode.Depth = base.xmlReader.Depth;
 							currentNode.Name = base.xmlReader.Name;
@@ -68,7 +68,7 @@ namespace XmlDiff
 						{
 							lastDepth = base.xmlReader.Depth;
 							
-							parent = queue.Dequeue ();
+							parent = queue.Pop ().Parent;
 						}
 					}
 					
