@@ -57,5 +57,7 @@
     <None Include="Xml\Case1_MixNodes\actual.xml" />
     <None Include="Xml\Case2_OK\expected.xml" />
     <None Include="Xml\Case2_OK\actual.xml" />
+    <None Include="Xml\Case2_AttrOrderChange_OK\expected.xml" />
+    <None Include="Xml\Case2_AttrOrderChange_OK\actual.xml" />
   </ItemGroup>
 </Project>

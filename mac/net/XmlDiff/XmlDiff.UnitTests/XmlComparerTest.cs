@@ -31,6 +31,17 @@ namespace XmlDiff.UnitTests
 			List<string> resultCollection = XmlComparer.Compare (expected, actual);
 			Assert.AreEqual (0, resultCollection.Count);
 		}
+		
+		[Test()]
+		[DeploymentItem("XmlDiff.UnitTests/Xml/Case2_AttrOrderChange_OK/*.xml", "Xml/Case2_AttrOrderChange_OK")]
+		public void Case2_AttrOrderChange_OK_Test ()
+		{
+			string expected = File.ReadAllText ("Xml/Case2_AttrOrderChange_OK/expected.xml");
+			string actual = File.ReadAllText ("Xml/Case2_AttrOrderChange_OK/actual.xml");
+
+			List<string> resultCollection = XmlComparer.Compare (expected, actual);
+			Assert.AreEqual (0, resultCollection.Count);
+		}
 	}
 }
 
