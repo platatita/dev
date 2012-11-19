@@ -3,6 +3,10 @@
 
 gawk 'BEGIN{FS="|"}; /Processing destination/{ print $2 $3 $6; no+=1; split($3,a," "); suma+=a[1]}; END{print suma; print no }' trace_tfr_edf.log
 
+# or working with zipped file
+
+zgrep "Processing destination" trace_tfr_edf.log-20121119.gz |  gawk 'BEGIN{FS="|"}; /Processing destination/{ print $0; no+=1; split($3,a," "); suma+=a[1]}; END{print suma; print no }'
+
 # result:
 # 11101532
 # 31
