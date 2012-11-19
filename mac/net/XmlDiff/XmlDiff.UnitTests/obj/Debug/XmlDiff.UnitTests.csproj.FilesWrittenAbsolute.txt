@@ -1,4 +1,0 @@
-/home/ms/sources/git/dev/mac/net/XmlDiff/XmlDiff.UnitTests/bin/Debug/XmlDiff.UnitTests.dll.mdb
-/home/ms/sources/git/dev/mac/net/XmlDiff/XmlDiff.UnitTests/bin/Debug/XmlDiff.UnitTests.dll
-/home/ms/sources/git/dev/mac/net/XmlDiff/XmlDiff.UnitTests/obj/Debug/XmlDiff.UnitTests.dll
-/home/ms/sources/git/dev/mac/net/XmlDiff/XmlDiff.UnitTests/obj/Debug/XmlDiff.UnitTests.dll.mdb
