@@ -1,0 +1,10 @@
+# text format of row:
+# 2012-11-19T21:22:59     5550927671168079860     Processing destination | Org: [FRA,CGN,DUS,MUC,STR,HAM,HAJ,SXF,TXL] Dest: [IST,SAW] | 429192 flights | 24 EDF files | 125.20 MB | 46202 ms
+
+gawk 'BEGIN{FS="|"}; /Processing destination/{ print $2 $3 $6; no+=1; split($3,a," "); suma+=a[1]}; END{print suma; print no }' trace_tfr_edf.log
+
+# result:
+# 11101532
+# 31
+
+
