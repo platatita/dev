@@ -1,11 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XmlDiff.UnitTests/Xml/Case4/expected.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XmlDiff/Node.cs">
     <Files>
       <File FileName="XmlDiff/XmlComparer.cs" Line="68" Column="12" />
       <File FileName="XmlDiff/XmlConverter.cs" Line="66" Column="3" />
       <File FileName="XmlDiff/Node.cs" Line="43" Column="1" />
-      <File FileName="XmlDiff.UnitTests/XmlComparerTest.cs" Line="22" Column="1" />
+      <File FileName="XmlDiff.UnitTests/XmlComparerTest.cs" Line="22" Column="33" />
       <File FileName="XmlDiff.UnitTests/Xml/Case4/actual.xml" Line="1" Column="1" />
       <File FileName="XmlDiff.UnitTests/Xml/Case4/expected.xml" Line="9" Column="15" />
     </Files>
@@ -13,13 +13,11 @@
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="XmlDiff" expanded="True">
-            <Node name="References" expanded="True" />
+            <Node name="Node.cs" selected="True" />
           </Node>
           <Node name="XmlDiff.UnitTests" expanded="True">
             <Node name="Xml" expanded="True">
-              <Node name="Case4" expanded="True">
-                <Node name="expected.xml" selected="True" />
-              </Node>
+              <Node name="Case4" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -39,11 +37,11 @@
         </State>
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True">
+        <State expanded="True" selected="True">
           <Node name="XmlDiff.UnitTests" expanded="True">
             <Node name="XmlDiff" expanded="True">
               <Node name="UnitTests" expanded="True">
-                <Node name="XmlComparerTest" expanded="True" selected="True" />
+                <Node name="XmlComparerTest" expanded="True" />
               </Node>
             </Node>
           </Node>

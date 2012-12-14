@@ -35,22 +35,22 @@ namespace XmlDiff.UnitTests
 		}
 				
 		[Test()]
-		[DeploymentItem("XmlDiff.UnitTests/Xml/Case3_OK/*.xml", "Xml/Case3_OK")]
-		public void Case3_OK_Test ()
+		[DeploymentItem("XmlDiff.UnitTests/Xml/Case3_TheSame_XmlFiles/*.xml", "Xml/Case3_TheSame_XmlFiles")]
+		public void Case3_TheSame_XmlFiles_Test ()
 		{
-			string expected = File.ReadAllText ("Xml/Case3_OK/expected.xml");
-			string actual = File.ReadAllText ("Xml/Case3_OK/actual.xml");
+			string expected = File.ReadAllText ("Xml/Case3_TheSame_XmlFiles/expected.xml");
+			string actual = File.ReadAllText ("Xml/Case3_TheSame_XmlFiles/actual.xml");
 
 			List<string> resultCollection = XmlComparer.CompareReturnString (expected, actual);
 			Assert.AreEqual (0, resultCollection.Count);
 		}
 		
 		[Test()]
-		[DeploymentItem("XmlDiff.UnitTests/Xml/Case4/*.xml", "Xml/Case4")]
-		public void Case4_OK_Test ()
+		[DeploymentItem("XmlDiff.UnitTests/Xml/Case4_MixNode_AndAttr_Order/*.xml", "Xml/Case4_MixNode_AndAttr_Order")]
+		public void Case4_MixNode_AndAttr_Order_Test ()
 		{
-			string expected = File.ReadAllText ("Xml/Case4/expected.xml");
-			string actual = File.ReadAllText ("Xml/Case4/actual.xml");
+			string expected = File.ReadAllText ("Xml/Case4_MixNode_AndAttr_Order/expected.xml");
+			string actual = File.ReadAllText ("Xml/Case4_MixNode_AndAttr_Order/actual.xml");
 
 			List<string> resultCollection = XmlComparer.CompareReturnString (expected, actual);
 			Assert.AreEqual (0, resultCollection.Count);
