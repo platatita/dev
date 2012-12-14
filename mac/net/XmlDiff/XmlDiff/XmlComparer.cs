@@ -16,7 +16,7 @@ namespace XmlDiff
 			XmlConverter actualXmlConverter = new XmlConverter (actualXml);
 			List<Node> actualNodeCollection = actualXmlConverter.Convert ();
 		
-			resultCollection.AddRange (ChechExpected (expectedNodeCollection, actualNodeCollection));
+			resultCollection.AddRange (CheckExpected (expectedNodeCollection, actualNodeCollection));
 			resultCollection.AddRange (CheckActual (actualNodeCollection));
 
 			return resultCollection;
@@ -32,13 +32,13 @@ namespace XmlDiff
 			XmlConverter actualXmlConverter = new XmlConverter (actualXml);
 			List<Node> actualNodeCollection = actualXmlConverter.Convert ();
 		
-			resultCollection.AddRange (ToString("Expected", ChechExpected (expectedNodeCollection, actualNodeCollection)));
+			resultCollection.AddRange (ToString("Expected", CheckExpected (expectedNodeCollection, actualNodeCollection)));
 			resultCollection.AddRange (ToString("Actual", CheckActual (actualNodeCollection)));
 
 			return resultCollection;
 		}
 
-		private static List<Node> ChechExpected (List<Node> expectedNodeCollection, List<Node> actualNodeCollection)
+		private static List<Node> CheckExpected (List<Node> expectedNodeCollection, List<Node> actualNodeCollection)
 		{
 			List<Node> resultCollection = new List<Node> ();
 
