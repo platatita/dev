@@ -5,13 +5,13 @@ namespace TestConsole
 {
 	public delegate void StateChangeHandler (object sender, StateEventArgs sea);
 	
-	public class EventTester
+	public class EventModeTester
 	{
 		public event StateChangeHandler StateChangeEvent;
 
 		private int counter;
 
-		public EventTester (bool safeMode = false)
+		public EventModeTester (bool safeMode = false)
 		{
 			this.SafeMode = safeMode;
 		}
