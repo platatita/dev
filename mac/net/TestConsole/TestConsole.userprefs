@@ -1,13 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestConsole/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestConsole/EventTest.cs">
     <Files>
-      <File FileName="TestConsole/Main.cs" Line="1" Column="1" />
+      <File FileName="TestConsole/Main.cs" Line="39" Column="1" />
+      <File FileName="TestConsole/EventTest.cs" Line="29" Column="4" />
+      <File FileName="TestConsole/StateEventArgs.cs" Line="12" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="TestConsole" expanded="True" selected="True" />
+          <Node name="TestConsole" expanded="True">
+            <Node name="EventTest.cs" selected="True" />
+          </Node>
         </State>
       </Pad>
       <Pad Id="ClassPad">
@@ -23,6 +27,9 @@
           <Value>this</Value>
           <Value>resultCollection</Value>
         </State>
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

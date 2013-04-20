@@ -23,32 +23,43 @@ namespace TestConsole
 
 		private static void TestEvents ()
 		{
-			Console.WriteLine("Insert key: ");
-			Console.WriteLine ("a - to add event");
-			Console.WriteLine ("m - to subtract event");
-			Console.WriteLine ("r - to read state");
-			Console.WriteLine ("s - to stop test");
-			Console.WriteLine ("t - to throw exception while reading state");
+			DisplayHelp ();			
 			
 			bool stop = false;
-			EventTest et = new EventTest ();
+			EventTester eventTest = new EventTester ();
 
 			while (!stop) {
 				ConsoleKeyInfo cki = Console.ReadKey ();
 				Console.WriteLine (" - Pressed {0}", cki.KeyChar);				
 
 				if (cki.Key == ConsoleKey.A) {
-					et.StateChangeEvent += HandleStateChangeEvent;
+					eventTest.StateChangeEvent += HandleStateChangeEvent;
 				} else if (cki.Key == ConsoleKey.M) {
-					et.StateChangeEvent -= HandleStateChangeEvent;
+					eventTest.StateChangeEvent -= HandleStateChangeEvent;
 				} else if (cki.Key == ConsoleKey.R) {
-					et.Increase();
+					eventTest.Increase ();
 				} else if (cki.Key == ConsoleKey.S) {
 					stop = true;
 				} else if (cki.Key == ConsoleKey.T) {
 					throwException = !throwException;
+				} else if (cki.Key == ConsoleKey.Q) {
+					eventTest.SafeMode = !eventTest.SafeMode;
+				} else if (cki.Key == ConsoleKey.H) {
+					DisplayHelp ();
 				}
 			}
+		}
+
+		static void DisplayHelp ()
+		{
+			Console.WriteLine("Help :)");
+			Console.WriteLine ("h - to display help");			
+			Console.WriteLine ("a - to subscribe user");
+			Console.WriteLine ("m - to subtract user");
+			Console.WriteLine ("r - to notify subscribers");
+			Console.WriteLine ("s - to stop application");
+			Console.WriteLine ("t - to switch on/off throwing exception inside the event handler method");
+			Console.WriteLine ("q - to switch on/off safe mode of Event testing");
 		}
 
 		static void HandleStateChangeEvent (object sender, StateEventArgs sea)

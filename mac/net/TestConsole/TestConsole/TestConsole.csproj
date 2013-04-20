@@ -39,8 +39,8 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="EventTest.cs" />
     <Compile Include="StateEventArgs.cs" />
+    <Compile Include="EventTester.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
