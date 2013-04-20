@@ -15,12 +15,12 @@ namespace TestConsole
 			this.counter++;
 
 			if (StateChangeEvent != null) {
-				SynStateChangeNotifier();
-//				AsynStateChangeNotifier();
+//				SynUnsafeStateChangeNotifier();
+				SynSafeStateChangeNotifier();
 			}
 		}
 
-		private void SynStateChangeNotifier ()
+		private void SynUnsafeStateChangeNotifier ()
 		{
 			this.StateChangeEvent (
 				this, 
@@ -31,20 +31,20 @@ namespace TestConsole
 			});
 		}
 
-		private void AsynStateChangeNotifier ()
+		private void SynSafeStateChangeNotifier ()
 		{
 			foreach (Delegate del in this.StateChangeEvent.GetInvocationList ()) {
 				StateChangeHandler sdel = del as StateChangeHandler;
 
 				try
 				{
-				sdel(
-					this, 
-					new StateEventArgs ()
-					{ 
-						Count = this.counter,
-						DelegateCount =	this.StateChangeEvent.GetInvocationList ().Length
-					});
+					sdel(
+						this, 
+						new StateEventArgs ()
+						{ 
+							Count = this.counter,
+							DelegateCount =	this.StateChangeEvent.GetInvocationList ().Length
+						});
 				}
 				catch (System.Exception ex)
 				{
