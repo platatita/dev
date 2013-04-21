@@ -42,9 +42,12 @@
     <Compile Include="Events\EventModeTester.cs" />
     <Compile Include="Events\TestEventsManager.cs" />
     <Compile Include="Events\StateEventArgs.cs" />
+    <Compile Include="Threads\ThreadStaticTest.cs" />
+    <Compile Include="Threads\ThreadLocalTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Events\" />
+    <Folder Include="Threads\" />
   </ItemGroup>
 </Project>
