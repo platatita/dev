@@ -1,10 +1,13 @@
 using System;
 using System.Linq;
 
-namespace TestConsole
+namespace TestConsole.Events
 {
 	public delegate void StateChangeHandler (object sender, StateEventArgs sea);
-	
+
+	/// <summary>
+	/// This class presents ways how to notify subscribers about state change by the event.
+	/// </summary>
 	public class EventModeTester
 	{
 		public event StateChangeHandler StateChangeEvent;
@@ -24,14 +27,14 @@ namespace TestConsole
 
 			if (StateChangeEvent != null) {
 				if (SafeMode) {
-					SynSafeStateChangeNotifier ();
+					SyncSafeStateChangeNotifier ();
 				} else {
-					SynUnsafeStateChangeNotifier ();
+					SyncUnsafeStateChangeNotifier ();
 				}
 			}
 		}
 
-		private void SynUnsafeStateChangeNotifier ()
+		private void SyncUnsafeStateChangeNotifier ()
 		{
 			long startTicks = DateTime.Now.Ticks;
 
@@ -46,7 +49,7 @@ namespace TestConsole
 			Console.WriteLine ("End unsafe mode of notification: {0} ticks", DateTime.Now.Ticks - startTicks);
 		}
 
-		private void SynSafeStateChangeNotifier ()
+		private void SyncSafeStateChangeNotifier ()
 		{
 			long startTicks = DateTime.Now.Ticks;
 			

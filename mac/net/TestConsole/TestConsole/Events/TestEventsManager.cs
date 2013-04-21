@@ -1,6 +1,6 @@
 using System;
 
-namespace TestConsole
+namespace TestConsole.Events
 {
 	public class TestEventsManager
 	{

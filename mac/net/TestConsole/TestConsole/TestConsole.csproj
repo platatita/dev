@@ -40,8 +40,11 @@
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="StateEventArgs.cs" />
-    <Compile Include="EventModeTester.cs" />
-    <Compile Include="TestEventsManager.cs" />
+    <Compile Include="Events\EventModeTester.cs" />
+    <Compile Include="Events\TestEventsManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Events\" />
+  </ItemGroup>
 </Project>
