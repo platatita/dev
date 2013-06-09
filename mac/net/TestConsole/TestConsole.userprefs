@@ -1,16 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestConsole/EventTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestConsole/Linqs/LinqsTest.cs">
     <Files>
-      <File FileName="TestConsole/Main.cs" Line="39" Column="1" />
-      <File FileName="TestConsole/EventTest.cs" Line="29" Column="4" />
-      <File FileName="TestConsole/StateEventArgs.cs" Line="12" Column="44" />
+      <File FileName="TestConsole/Main.cs" Line="3" Column="6" />
+      <File FileName="TestConsole/Linqs/LinqsTest.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="TestConsole" expanded="True">
-            <Node name="EventTest.cs" selected="True" />
+            <Node name="Events" expanded="True" />
+            <Node name="Linqs" expanded="True">
+              <Node name="LinqsTest.cs" selected="True" />
+            </Node>
+            <Node name="Threads" expanded="True" />
           </Node>
         </State>
       </Pad>
